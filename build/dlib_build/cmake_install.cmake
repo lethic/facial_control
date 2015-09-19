@@ -1,4 +1,4 @@
-# Install script for directory: /home/lethic/projects/dlib-18.17/dlib
+# Install script for directory: /home/odroid/Documents/dlib-18.17/dlib
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

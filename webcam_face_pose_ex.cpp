@@ -62,18 +62,22 @@ int main()
             // contain dangling pointers.  This basically means you shouldn't modify temp
             // while using cimg.
             cv_image<bgr_pixel> cimg(temp);
-
-            // Detect faces 
-            std::vector<rectangle> faces = detector(cimg);
+            //pyramid_up(cimg);
+            // Detect faces
+            array2d<unsigned char> img;
+            img = cimg;
+            std::vector<rectangle> faces = detector(img);
             // Find the pose of each face.
+/*
             std::vector<full_object_detection> shapes;
             for (unsigned long i = 0; i < faces.size(); ++i)
                 shapes.push_back(pose_model(cimg, faces[i]));
-
+*/
             // Display it all on the screen
             win.clear_overlay();
             win.set_image(cimg);
-            win.add_overlay(render_face_detections(shapes));
+            //win.add_overlay(render_face_detections(shapes));
+            win.add_overlay(faces, rgb_pixel(255, 0, 0));
         }
     }
     catch(serialization_error& e)

@@ -34,11 +34,14 @@ RM = /usr/bin/cmake -E remove -f
 # Escaping for special characters.
 EQUALS = =
 
+# The program to use to edit the cache.
+CMAKE_EDIT_COMMAND = /usr/bin/ccmake
+
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lethic/projects/faceLandmark
+CMAKE_SOURCE_DIR = /home/odroid/Documents/facial_control
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lethic/projects/faceLandmark/build
+CMAKE_BINARY_DIR = /home/odroid/Documents/facial_control/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/webcam_face_pose_ex.dir/depend.make
@@ -51,17 +54,17 @@ include CMakeFiles/webcam_face_pose_ex.dir/flags.make
 
 CMakeFiles/webcam_face_pose_ex.dir/webcam_face_pose_ex.cpp.o: CMakeFiles/webcam_face_pose_ex.dir/flags.make
 CMakeFiles/webcam_face_pose_ex.dir/webcam_face_pose_ex.cpp.o: ../webcam_face_pose_ex.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/webcam_face_pose_ex.dir/webcam_face_pose_ex.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/webcam_face_pose_ex.dir/webcam_face_pose_ex.cpp.o -c /home/lethic/projects/faceLandmark/webcam_face_pose_ex.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/webcam_face_pose_ex.dir/webcam_face_pose_ex.cpp.o -c /home/odroid/Documents/facial_control/webcam_face_pose_ex.cpp
 
 CMakeFiles/webcam_face_pose_ex.dir/webcam_face_pose_ex.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/webcam_face_pose_ex.dir/webcam_face_pose_ex.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lethic/projects/faceLandmark/webcam_face_pose_ex.cpp > CMakeFiles/webcam_face_pose_ex.dir/webcam_face_pose_ex.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odroid/Documents/facial_control/webcam_face_pose_ex.cpp > CMakeFiles/webcam_face_pose_ex.dir/webcam_face_pose_ex.cpp.i
 
 CMakeFiles/webcam_face_pose_ex.dir/webcam_face_pose_ex.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/webcam_face_pose_ex.dir/webcam_face_pose_ex.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lethic/projects/faceLandmark/webcam_face_pose_ex.cpp -o CMakeFiles/webcam_face_pose_ex.dir/webcam_face_pose_ex.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odroid/Documents/facial_control/webcam_face_pose_ex.cpp -o CMakeFiles/webcam_face_pose_ex.dir/webcam_face_pose_ex.cpp.s
 
 CMakeFiles/webcam_face_pose_ex.dir/webcam_face_pose_ex.cpp.o.requires:
 .PHONY : CMakeFiles/webcam_face_pose_ex.dir/webcam_face_pose_ex.cpp.o.requires
@@ -82,44 +85,49 @@ webcam_face_pose_ex_EXTERNAL_OBJECTS =
 webcam_face_pose_ex: CMakeFiles/webcam_face_pose_ex.dir/webcam_face_pose_ex.cpp.o
 webcam_face_pose_ex: CMakeFiles/webcam_face_pose_ex.dir/build.make
 webcam_face_pose_ex: dlib_build/libdlib.a
-webcam_face_pose_ex: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.2.4.8
-webcam_face_pose_ex: /usr/lib/x86_64-linux-gnu/libopencv_video.so.2.4.8
-webcam_face_pose_ex: /usr/lib/x86_64-linux-gnu/libopencv_ts.so.2.4.8
-webcam_face_pose_ex: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.2.4.8
-webcam_face_pose_ex: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.2.4.8
-webcam_face_pose_ex: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.2.4.8
-webcam_face_pose_ex: /usr/lib/x86_64-linux-gnu/libopencv_ocl.so.2.4.8
-webcam_face_pose_ex: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.2.4.8
-webcam_face_pose_ex: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.2.4.8
-webcam_face_pose_ex: /usr/lib/x86_64-linux-gnu/libopencv_legacy.so.2.4.8
-webcam_face_pose_ex: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.2.4.8
-webcam_face_pose_ex: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.2.4.8
-webcam_face_pose_ex: /usr/lib/x86_64-linux-gnu/libopencv_gpu.so.2.4.8
-webcam_face_pose_ex: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.2.4.8
-webcam_face_pose_ex: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.2.4.8
-webcam_face_pose_ex: /usr/lib/x86_64-linux-gnu/libopencv_core.so.2.4.8
-webcam_face_pose_ex: /usr/lib/x86_64-linux-gnu/libopencv_contrib.so.2.4.8
-webcam_face_pose_ex: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.2.4.8
-webcam_face_pose_ex: /usr/lib/x86_64-linux-gnu/libpthread.so
-webcam_face_pose_ex: /usr/lib/x86_64-linux-gnu/libnsl.so
-webcam_face_pose_ex: /usr/lib/x86_64-linux-gnu/libSM.so
-webcam_face_pose_ex: /usr/lib/x86_64-linux-gnu/libICE.so
-webcam_face_pose_ex: /usr/lib/x86_64-linux-gnu/libX11.so
-webcam_face_pose_ex: /usr/lib/x86_64-linux-gnu/libXext.so
-webcam_face_pose_ex: /usr/lib/x86_64-linux-gnu/libpng.so
-webcam_face_pose_ex: /usr/lib/x86_64-linux-gnu/libjpeg.so
-webcam_face_pose_ex: /usr/lib/x86_64-linux-gnu/libsqlite3.so
-webcam_face_pose_ex: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.2.4.8
-webcam_face_pose_ex: /usr/lib/x86_64-linux-gnu/libopencv_legacy.so.2.4.8
-webcam_face_pose_ex: /usr/lib/x86_64-linux-gnu/libopencv_video.so.2.4.8
-webcam_face_pose_ex: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.2.4.8
-webcam_face_pose_ex: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.2.4.8
-webcam_face_pose_ex: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.2.4.8
-webcam_face_pose_ex: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.2.4.8
-webcam_face_pose_ex: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.2.4.8
-webcam_face_pose_ex: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.2.4.8
-webcam_face_pose_ex: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.2.4.8
-webcam_face_pose_ex: /usr/lib/x86_64-linux-gnu/libopencv_core.so.2.4.8
+webcam_face_pose_ex: /usr/local/lib/libopencv_videostab.so.2.4.9
+webcam_face_pose_ex: /usr/local/lib/libopencv_video.so.2.4.9
+webcam_face_pose_ex: /usr/local/lib/libopencv_ts.a
+webcam_face_pose_ex: /usr/local/lib/libopencv_superres.so.2.4.9
+webcam_face_pose_ex: /usr/local/lib/libopencv_stitching.so.2.4.9
+webcam_face_pose_ex: /usr/local/lib/libopencv_photo.so.2.4.9
+webcam_face_pose_ex: /usr/local/lib/libopencv_ocl.so.2.4.9
+webcam_face_pose_ex: /usr/local/lib/libopencv_objdetect.so.2.4.9
+webcam_face_pose_ex: /usr/local/lib/libopencv_nonfree.so.2.4.9
+webcam_face_pose_ex: /usr/local/lib/libopencv_ml.so.2.4.9
+webcam_face_pose_ex: /usr/local/lib/libopencv_legacy.so.2.4.9
+webcam_face_pose_ex: /usr/local/lib/libopencv_imgproc.so.2.4.9
+webcam_face_pose_ex: /usr/local/lib/libopencv_highgui.so.2.4.9
+webcam_face_pose_ex: /usr/local/lib/libopencv_gpu.so.2.4.9
+webcam_face_pose_ex: /usr/local/lib/libopencv_flann.so.2.4.9
+webcam_face_pose_ex: /usr/local/lib/libopencv_features2d.so.2.4.9
+webcam_face_pose_ex: /usr/local/lib/libopencv_core.so.2.4.9
+webcam_face_pose_ex: /usr/local/lib/libopencv_contrib.so.2.4.9
+webcam_face_pose_ex: /usr/local/lib/libopencv_calib3d.so.2.4.9
+webcam_face_pose_ex: /usr/lib/arm-linux-gnueabihf/libpthread.so
+webcam_face_pose_ex: /usr/lib/arm-linux-gnueabihf/libnsl.so
+webcam_face_pose_ex: /usr/lib/arm-linux-gnueabihf/libSM.so
+webcam_face_pose_ex: /usr/lib/arm-linux-gnueabihf/libICE.so
+webcam_face_pose_ex: /usr/lib/arm-linux-gnueabihf/libX11.so
+webcam_face_pose_ex: /usr/lib/arm-linux-gnueabihf/libXext.so
+webcam_face_pose_ex: /usr/lib/arm-linux-gnueabihf/libpng.so
+webcam_face_pose_ex: /usr/lib/arm-linux-gnueabihf/libjpeg.so
+webcam_face_pose_ex: /usr/lib/arm-linux-gnueabihf/libsqlite3.so
+webcam_face_pose_ex: /usr/local/lib/libopencv_nonfree.so.2.4.9
+webcam_face_pose_ex: /usr/local/lib/libopencv_ocl.so.2.4.9
+webcam_face_pose_ex: /usr/local/lib/libopencv_gpu.so.2.4.9
+webcam_face_pose_ex: /usr/local/lib/libopencv_photo.so.2.4.9
+webcam_face_pose_ex: /usr/local/lib/libopencv_objdetect.so.2.4.9
+webcam_face_pose_ex: /usr/local/lib/libopencv_legacy.so.2.4.9
+webcam_face_pose_ex: /usr/local/lib/libopencv_video.so.2.4.9
+webcam_face_pose_ex: /usr/local/lib/libopencv_ml.so.2.4.9
+webcam_face_pose_ex: /usr/local/lib/libopencv_calib3d.so.2.4.9
+webcam_face_pose_ex: /usr/local/lib/libopencv_features2d.so.2.4.9
+webcam_face_pose_ex: /usr/local/lib/libopencv_highgui.so.2.4.9
+webcam_face_pose_ex: /usr/local/lib/libopencv_imgproc.so.2.4.9
+webcam_face_pose_ex: /usr/local/lib/libopencv_flann.so.2.4.9
+webcam_face_pose_ex: /usr/local/lib/libopencv_core.so.2.4.9
+webcam_face_pose_ex: /usr/local/lib/libtbb.so
 webcam_face_pose_ex: CMakeFiles/webcam_face_pose_ex.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable webcam_face_pose_ex"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/webcam_face_pose_ex.dir/link.txt --verbose=$(VERBOSE)
@@ -136,6 +144,6 @@ CMakeFiles/webcam_face_pose_ex.dir/clean:
 .PHONY : CMakeFiles/webcam_face_pose_ex.dir/clean
 
 CMakeFiles/webcam_face_pose_ex.dir/depend:
-	cd /home/lethic/projects/faceLandmark/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lethic/projects/faceLandmark /home/lethic/projects/faceLandmark /home/lethic/projects/faceLandmark/build /home/lethic/projects/faceLandmark/build /home/lethic/projects/faceLandmark/build/CMakeFiles/webcam_face_pose_ex.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/odroid/Documents/facial_control/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/odroid/Documents/facial_control /home/odroid/Documents/facial_control /home/odroid/Documents/facial_control/build /home/odroid/Documents/facial_control/build /home/odroid/Documents/facial_control/build/CMakeFiles/webcam_face_pose_ex.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/webcam_face_pose_ex.dir/depend
 

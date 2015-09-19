@@ -1,4 +1,4 @@
-The system is: Linux - 3.16.0-30-generic - x86_64
+The system is: Linux - 3.8.13.23 - armv7l
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /usr/bin/cc 
 Build flags: 
@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/lethic/projects/faceLandmark/build/CMakeFiles/2.8.12.2/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/odroid/Documents/facial_control/build/CMakeFiles/2.8.12.2/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,99 +23,100 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/lethic/projects/faceLandmark/build/CMakeFiles/2.8.12.2/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/odroid/Documents/facial_control/build/CMakeFiles/2.8.12.2/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp
+Change Dir: /home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2638362972/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2638362972.dir/build.make CMakeFiles/cmTryCompileExec2638362972.dir/build
-make[1]: Entering directory `/home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2638362972.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2638362972.dir/testCCompiler.c.o   -c /home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTryCompileExec2638362972
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2638362972.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec2638362972.dir/testCCompiler.c.o  -o cmTryCompileExec2638362972 -rdynamic 
-make[1]: Leaving directory `/home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp'
+Run Build Command:/usr/bin/make "cmTryCompileExec175309609/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec175309609.dir/build.make CMakeFiles/cmTryCompileExec175309609.dir/build
+make[1]: Entering directory `/home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec175309609.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec175309609.dir/testCCompiler.c.o   -c /home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec175309609
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec175309609.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec175309609.dir/testCCompiler.c.o  -o cmTryCompileExec175309609 -rdynamic 
+make[1]: Leaving directory `/home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp
+Change Dir: /home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec1855234321/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1855234321.dir/build.make CMakeFiles/cmTryCompileExec1855234321.dir/build
-make[1]: Entering directory `/home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec1855234321.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1855234321.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c
-Linking C executable cmTryCompileExec1855234321
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1855234321.dir/link.txt --verbose=1
-/usr/bin/cc     -v CMakeFiles/cmTryCompileExec1855234321.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1855234321 -rdynamic  
+Run Build Command:/usr/bin/make "cmTryCompileExec4201686769/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4201686769.dir/build.make CMakeFiles/cmTryCompileExec4201686769.dir/build
+make[1]: Entering directory `/home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4201686769.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4201686769.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec4201686769
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4201686769.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTryCompileExec4201686769.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec4201686769 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
-COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
-Target: x86_64-linux-gnu
-Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-linux-gnueabihf/4.8/lto-wrapper
+Target: arm-linux-gnueabihf
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 4.8.2-19ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --disable-libitm --disable-libquadmath --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-armhf/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-armhf --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-armhf --with-arch-directory=arm --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --enable-multilib --disable-sjlj-exceptions --with-arch=armv7-a --with-fpu=vfpv3-d16 --with-float=hard --with-mode=thumb --disable-werror --enable-checking=release --build=arm-linux-gnueabihf --host=arm-linux-gnueabihf --target=arm-linux-gnueabihf
 Thread model: posix
-gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04) 
-COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
-LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1855234321' '-rdynamic' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec1855234321 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec1855234321.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
-make[1]: Leaving directory `/home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp'
+gcc version 4.8.2 (Ubuntu/Linaro 4.8.2-19ubuntu1) 
+COMPILER_PATH=/usr/lib/gcc/arm-linux-gnueabihf/4.8/:/usr/lib/gcc/arm-linux-gnueabihf/4.8/:/usr/lib/gcc/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/4.8/:/usr/lib/gcc/arm-linux-gnueabihf/
+LIBRARY_PATH=/usr/lib/gcc/arm-linux-gnueabihf/4.8/:/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../../lib/:/lib/arm-linux-gnueabihf/:/lib/../lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/../lib/:/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec4201686769' '-rdynamic' '-march=armv7-a' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu'
+ /usr/lib/gcc/arm-linux-gnueabihf/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu --as-needed -m armelf_linux_eabi -z relro -o cmTryCompileExec4201686769 /usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/4.8/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/4.8 -L/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../../lib -L/lib/arm-linux-gnueabihf -L/lib/../lib -L/usr/lib/arm-linux-gnueabihf -L/usr/lib/../lib -L/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../.. CMakeFiles/cmTryCompileExec4201686769.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/arm-linux-gnueabihf/4.8/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../arm-linux-gnueabihf/crtn.o
+make[1]: Leaving directory `/home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec1855234321/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec1855234321.dir/build.make CMakeFiles/cmTryCompileExec1855234321.dir/build]
-  ignore line: [make[1]: Entering directory `/home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp']
-  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
-  ignore line: [Building C object CMakeFiles/cmTryCompileExec1855234321.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1855234321.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTryCompileExec1855234321]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1855234321.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTryCompileExec1855234321.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1855234321 -rdynamic  ]
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec4201686769/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec4201686769.dir/build.make CMakeFiles/cmTryCompileExec4201686769.dir/build]
+  ignore line: [make[1]: Entering directory `/home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec4201686769.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4201686769.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec4201686769]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4201686769.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTryCompileExec4201686769.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec4201686769 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
-  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
-  ignore line: [Target: x86_64-linux-gnu]
-  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-linux-gnueabihf/4.8/lto-wrapper]
+  ignore line: [Target: arm-linux-gnueabihf]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 4.8.2-19ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --disable-libitm --disable-libquadmath --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-armhf/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-armhf --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-armhf --with-arch-directory=arm --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --enable-multilib --disable-sjlj-exceptions --with-arch=armv7-a --with-fpu=vfpv3-d16 --with-float=hard --with-mode=thumb --disable-werror --enable-checking=release --build=arm-linux-gnueabihf --host=arm-linux-gnueabihf --target=arm-linux-gnueabihf]
   ignore line: [Thread model: posix]
-  ignore line: [gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04) ]
-  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
-  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1855234321' '-rdynamic' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec1855234321 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec1855234321.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
-    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
+  ignore line: [gcc version 4.8.2 (Ubuntu/Linaro 4.8.2-19ubuntu1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/arm-linux-gnueabihf/4.8/:/usr/lib/gcc/arm-linux-gnueabihf/4.8/:/usr/lib/gcc/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/4.8/:/usr/lib/gcc/arm-linux-gnueabihf/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/arm-linux-gnueabihf/4.8/:/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../../lib/:/lib/arm-linux-gnueabihf/:/lib/../lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/../lib/:/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec4201686769' '-rdynamic' '-march=armv7-a' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu']
+  link line: [ /usr/lib/gcc/arm-linux-gnueabihf/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu --as-needed -m armelf_linux_eabi -z relro -o cmTryCompileExec4201686769 /usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/4.8/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/4.8 -L/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../../lib -L/lib/arm-linux-gnueabihf -L/lib/../lib -L/usr/lib/arm-linux-gnueabihf -L/usr/lib/../lib -L/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../.. CMakeFiles/cmTryCompileExec4201686769.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/arm-linux-gnueabihf/4.8/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../arm-linux-gnueabihf/crtn.o]
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/4.8/collect2] ==> ignore
     arg [--sysroot=/] ==> ignore
     arg [--build-id] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
-    arg [-m] ==> ignore
-    arg [elf_x86_64] ==> ignore
-    arg [--hash-style=gnu] ==> ignore
-    arg [--as-needed] ==> ignore
     arg [-export-dynamic] ==> ignore
     arg [-dynamic-linker] ==> ignore
-    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [/lib/ld-linux-armhf.so.3] ==> ignore
+    arg [-X] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTryCompileExec1855234321] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
-    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8]
-    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu]
-    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib]
-    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [cmTryCompileExec4201686769] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../arm-linux-gnueabihf/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../arm-linux-gnueabihf/crti.o] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/4.8/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/arm-linux-gnueabihf/4.8] ==> dir [/usr/lib/gcc/arm-linux-gnueabihf/4.8]
+    arg [-L/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../arm-linux-gnueabihf] ==> dir [/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../arm-linux-gnueabihf]
+    arg [-L/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../../lib] ==> dir [/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../../lib]
+    arg [-L/lib/arm-linux-gnueabihf] ==> dir [/lib/arm-linux-gnueabihf]
     arg [-L/lib/../lib] ==> dir [/lib/../lib]
-    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/arm-linux-gnueabihf] ==> dir [/usr/lib/arm-linux-gnueabihf]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
-    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
-    arg [CMakeFiles/cmTryCompileExec1855234321.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-L/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../..] ==> dir [/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../..]
+    arg [CMakeFiles/cmTryCompileExec4201686769.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -125,116 +126,117 @@ Parsed C implicit link information from above output:
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
     arg [--no-as-needed] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/4.8/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../arm-linux-gnueabihf/crtn.o] ==> ignore
   remove lib [gcc]
   remove lib [gcc_s]
   remove lib [gcc]
   remove lib [gcc_s]
-  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.8]
-  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
-  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> [/usr/lib]
-  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/arm-linux-gnueabihf/4.8] ==> [/usr/lib/gcc/arm-linux-gnueabihf/4.8]
+  collapse library dir [/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../arm-linux-gnueabihf] ==> [/usr/lib/arm-linux-gnueabihf]
+  collapse library dir [/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/arm-linux-gnueabihf] ==> [/lib/arm-linux-gnueabihf]
   collapse library dir [/lib/../lib] ==> [/lib]
-  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/arm-linux-gnueabihf] ==> [/usr/lib/arm-linux-gnueabihf]
   collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
-  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../..] ==> [/usr/lib]
   implicit libs: [c]
-  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.8;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit dirs: [/usr/lib/gcc/arm-linux-gnueabihf/4.8;/usr/lib/arm-linux-gnueabihf;/usr/lib;/lib/arm-linux-gnueabihf;/lib]
   implicit fwks: []
 
 
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp
+Change Dir: /home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2984269765/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2984269765.dir/build.make CMakeFiles/cmTryCompileExec2984269765.dir/build
-make[1]: Entering directory `/home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec2984269765.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2984269765.dir/testCXXCompiler.cxx.o -c /home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTryCompileExec2984269765
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2984269765.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTryCompileExec2984269765.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec2984269765 -rdynamic 
-make[1]: Leaving directory `/home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp'
+Run Build Command:/usr/bin/make "cmTryCompileExec1694704598/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1694704598.dir/build.make CMakeFiles/cmTryCompileExec1694704598.dir/build
+make[1]: Entering directory `/home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1694704598.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec1694704598.dir/testCXXCompiler.cxx.o -c /home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec1694704598
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1694704598.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec1694704598.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec1694704598 -rdynamic 
+make[1]: Leaving directory `/home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp
+Change Dir: /home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec3511575907/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3511575907.dir/build.make CMakeFiles/cmTryCompileExec3511575907.dir/build
-make[1]: Entering directory `/home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec3511575907.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3511575907.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTryCompileExec3511575907
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3511575907.dir/link.txt --verbose=1
-/usr/bin/c++      -v CMakeFiles/cmTryCompileExec3511575907.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3511575907 -rdynamic  
+Run Build Command:/usr/bin/make "cmTryCompileExec1034817866/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1034817866.dir/build.make CMakeFiles/cmTryCompileExec1034817866.dir/build
+make[1]: Entering directory `/home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1034817866.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec1034817866.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec1034817866
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1034817866.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTryCompileExec1034817866.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec1034817866 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
-COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
-Target: x86_64-linux-gnu
-Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-linux-gnueabihf/4.8/lto-wrapper
+Target: arm-linux-gnueabihf
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 4.8.2-19ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --disable-libitm --disable-libquadmath --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-armhf/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-armhf --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-armhf --with-arch-directory=arm --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --enable-multilib --disable-sjlj-exceptions --with-arch=armv7-a --with-fpu=vfpv3-d16 --with-float=hard --with-mode=thumb --disable-werror --enable-checking=release --build=arm-linux-gnueabihf --host=arm-linux-gnueabihf --target=arm-linux-gnueabihf
 Thread model: posix
-gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04) 
-COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
-LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3511575907' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec3511575907 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec3511575907.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
-make[1]: Leaving directory `/home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp'
+gcc version 4.8.2 (Ubuntu/Linaro 4.8.2-19ubuntu1) 
+COMPILER_PATH=/usr/lib/gcc/arm-linux-gnueabihf/4.8/:/usr/lib/gcc/arm-linux-gnueabihf/4.8/:/usr/lib/gcc/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/4.8/:/usr/lib/gcc/arm-linux-gnueabihf/
+LIBRARY_PATH=/usr/lib/gcc/arm-linux-gnueabihf/4.8/:/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../../lib/:/lib/arm-linux-gnueabihf/:/lib/../lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/../lib/:/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1034817866' '-rdynamic' '-shared-libgcc' '-march=armv7-a' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu'
+ /usr/lib/gcc/arm-linux-gnueabihf/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu --as-needed -m armelf_linux_eabi -z relro -o cmTryCompileExec1034817866 /usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/4.8/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/4.8 -L/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../../lib -L/lib/arm-linux-gnueabihf -L/lib/../lib -L/usr/lib/arm-linux-gnueabihf -L/usr/lib/../lib -L/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../.. CMakeFiles/cmTryCompileExec1034817866.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/arm-linux-gnueabihf/4.8/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../arm-linux-gnueabihf/crtn.o
+make[1]: Leaving directory `/home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec3511575907/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec3511575907.dir/build.make CMakeFiles/cmTryCompileExec3511575907.dir/build]
-  ignore line: [make[1]: Entering directory `/home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp']
-  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
-  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec3511575907.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3511575907.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTryCompileExec3511575907]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3511575907.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTryCompileExec3511575907.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3511575907 -rdynamic  ]
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec1034817866/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec1034817866.dir/build.make CMakeFiles/cmTryCompileExec1034817866.dir/build]
+  ignore line: [make[1]: Entering directory `/home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec1034817866.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec1034817866.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec1034817866]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1034817866.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTryCompileExec1034817866.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec1034817866 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
-  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
-  ignore line: [Target: x86_64-linux-gnu]
-  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-linux-gnueabihf/4.8/lto-wrapper]
+  ignore line: [Target: arm-linux-gnueabihf]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 4.8.2-19ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --disable-libitm --disable-libquadmath --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-armhf/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-armhf --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-armhf --with-arch-directory=arm --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --enable-multilib --disable-sjlj-exceptions --with-arch=armv7-a --with-fpu=vfpv3-d16 --with-float=hard --with-mode=thumb --disable-werror --enable-checking=release --build=arm-linux-gnueabihf --host=arm-linux-gnueabihf --target=arm-linux-gnueabihf]
   ignore line: [Thread model: posix]
-  ignore line: [gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04) ]
-  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
-  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3511575907' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec3511575907 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec3511575907.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
-    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
+  ignore line: [gcc version 4.8.2 (Ubuntu/Linaro 4.8.2-19ubuntu1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/arm-linux-gnueabihf/4.8/:/usr/lib/gcc/arm-linux-gnueabihf/4.8/:/usr/lib/gcc/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/4.8/:/usr/lib/gcc/arm-linux-gnueabihf/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/arm-linux-gnueabihf/4.8/:/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../../lib/:/lib/arm-linux-gnueabihf/:/lib/../lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/../lib/:/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1034817866' '-rdynamic' '-shared-libgcc' '-march=armv7-a' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu']
+  link line: [ /usr/lib/gcc/arm-linux-gnueabihf/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu --as-needed -m armelf_linux_eabi -z relro -o cmTryCompileExec1034817866 /usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/4.8/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/4.8 -L/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../../lib -L/lib/arm-linux-gnueabihf -L/lib/../lib -L/usr/lib/arm-linux-gnueabihf -L/usr/lib/../lib -L/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../.. CMakeFiles/cmTryCompileExec1034817866.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/arm-linux-gnueabihf/4.8/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../arm-linux-gnueabihf/crtn.o]
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/4.8/collect2] ==> ignore
     arg [--sysroot=/] ==> ignore
     arg [--build-id] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
-    arg [-m] ==> ignore
-    arg [elf_x86_64] ==> ignore
-    arg [--hash-style=gnu] ==> ignore
-    arg [--as-needed] ==> ignore
     arg [-export-dynamic] ==> ignore
     arg [-dynamic-linker] ==> ignore
-    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [/lib/ld-linux-armhf.so.3] ==> ignore
+    arg [-X] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTryCompileExec3511575907] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
-    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8]
-    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu]
-    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib]
-    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [cmTryCompileExec1034817866] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../arm-linux-gnueabihf/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../arm-linux-gnueabihf/crti.o] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/4.8/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/arm-linux-gnueabihf/4.8] ==> dir [/usr/lib/gcc/arm-linux-gnueabihf/4.8]
+    arg [-L/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../arm-linux-gnueabihf] ==> dir [/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../arm-linux-gnueabihf]
+    arg [-L/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../../lib] ==> dir [/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../../lib]
+    arg [-L/lib/arm-linux-gnueabihf] ==> dir [/lib/arm-linux-gnueabihf]
     arg [-L/lib/../lib] ==> dir [/lib/../lib]
-    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/arm-linux-gnueabihf] ==> dir [/usr/lib/arm-linux-gnueabihf]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
-    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
-    arg [CMakeFiles/cmTryCompileExec3511575907.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-L/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../..] ==> dir [/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../..]
+    arg [CMakeFiles/cmTryCompileExec1034817866.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -242,232 +244,232 @@ Parsed CXX implicit link information from above output:
     arg [-lc] ==> lib [c]
     arg [-lgcc_s] ==> lib [gcc_s]
     arg [-lgcc] ==> lib [gcc]
-    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/4.8/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../arm-linux-gnueabihf/crtn.o] ==> ignore
   remove lib [gcc_s]
   remove lib [gcc]
   remove lib [gcc_s]
   remove lib [gcc]
-  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.8]
-  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
-  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> [/usr/lib]
-  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/arm-linux-gnueabihf/4.8] ==> [/usr/lib/gcc/arm-linux-gnueabihf/4.8]
+  collapse library dir [/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../arm-linux-gnueabihf] ==> [/usr/lib/arm-linux-gnueabihf]
+  collapse library dir [/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/arm-linux-gnueabihf] ==> [/lib/arm-linux-gnueabihf]
   collapse library dir [/lib/../lib] ==> [/lib]
-  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/arm-linux-gnueabihf] ==> [/usr/lib/arm-linux-gnueabihf]
   collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
-  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/arm-linux-gnueabihf/4.8/../../..] ==> [/usr/lib]
   implicit libs: [stdc++;m;c]
-  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.8;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit dirs: [/usr/lib/gcc/arm-linux-gnueabihf/4.8;/usr/lib/arm-linux-gnueabihf;/usr/lib;/lib/arm-linux-gnueabihf;/lib]
   implicit fwks: []
 
 
-Determining if the function XOpenDisplay exists in the /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so passed with the following output:
-Change Dir: /home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp
+Determining if the function XOpenDisplay exists in the /usr/lib/arm-linux-gnueabihf/libX11.so;/usr/lib/arm-linux-gnueabihf/libXext.so passed with the following output:
+Change Dir: /home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec291479096/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec291479096.dir/build.make CMakeFiles/cmTryCompileExec291479096.dir/build
-make[1]: Entering directory `/home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec291479096.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTryCompileExec291479096.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec291479096
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec291479096.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTryCompileExec291479096.dir/CheckFunctionExists.c.o  -o cmTryCompileExec291479096 -rdynamic -lX11 -lXext 
-make[1]: Leaving directory `/home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp'
+Run Build Command:/usr/bin/make "cmTryCompileExec2325515928/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2325515928.dir/build.make CMakeFiles/cmTryCompileExec2325515928.dir/build
+make[1]: Entering directory `/home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2325515928.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTryCompileExec2325515928.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2325515928
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2325515928.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTryCompileExec2325515928.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2325515928 -rdynamic -lX11 -lXext 
+make[1]: Leaving directory `/home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function gethostbyname exists passed with the following output:
-Change Dir: /home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp
+Change Dir: /home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec111487086/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec111487086.dir/build.make CMakeFiles/cmTryCompileExec111487086.dir/build
-make[1]: Entering directory `/home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec111487086.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTryCompileExec111487086.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec111487086
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec111487086.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTryCompileExec111487086.dir/CheckFunctionExists.c.o  -o cmTryCompileExec111487086 -rdynamic 
-make[1]: Leaving directory `/home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp'
+Run Build Command:/usr/bin/make "cmTryCompileExec3741277009/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3741277009.dir/build.make CMakeFiles/cmTryCompileExec3741277009.dir/build
+make[1]: Entering directory `/home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3741277009.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTryCompileExec3741277009.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3741277009
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3741277009.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTryCompileExec3741277009.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3741277009 -rdynamic 
+make[1]: Leaving directory `/home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function connect exists passed with the following output:
-Change Dir: /home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp
+Change Dir: /home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec3513957305/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3513957305.dir/build.make CMakeFiles/cmTryCompileExec3513957305.dir/build
-make[1]: Entering directory `/home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec3513957305.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTryCompileExec3513957305.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec3513957305
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3513957305.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTryCompileExec3513957305.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3513957305 -rdynamic 
-make[1]: Leaving directory `/home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp'
+Run Build Command:/usr/bin/make "cmTryCompileExec2909536322/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2909536322.dir/build.make CMakeFiles/cmTryCompileExec2909536322.dir/build
+make[1]: Entering directory `/home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2909536322.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTryCompileExec2909536322.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2909536322
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2909536322.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTryCompileExec2909536322.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2909536322 -rdynamic 
+make[1]: Leaving directory `/home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function remove exists passed with the following output:
-Change Dir: /home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp
+Change Dir: /home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2959147521/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2959147521.dir/build.make CMakeFiles/cmTryCompileExec2959147521.dir/build
-make[1]: Entering directory `/home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2959147521.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTryCompileExec2959147521.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec2959147521
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2959147521.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTryCompileExec2959147521.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2959147521 -rdynamic 
-make[1]: Leaving directory `/home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp'
+Run Build Command:/usr/bin/make "cmTryCompileExec2371126832/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2371126832.dir/build.make CMakeFiles/cmTryCompileExec2371126832.dir/build
+make[1]: Entering directory `/home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2371126832.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTryCompileExec2371126832.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2371126832
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2371126832.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTryCompileExec2371126832.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2371126832 -rdynamic 
+make[1]: Leaving directory `/home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function shmat exists passed with the following output:
-Change Dir: /home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp
+Change Dir: /home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec1451959980/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1451959980.dir/build.make CMakeFiles/cmTryCompileExec1451959980.dir/build
-make[1]: Entering directory `/home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec1451959980.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTryCompileExec1451959980.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec1451959980
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1451959980.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTryCompileExec1451959980.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1451959980 -rdynamic 
-make[1]: Leaving directory `/home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp'
+Run Build Command:/usr/bin/make "cmTryCompileExec2632794909/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2632794909.dir/build.make CMakeFiles/cmTryCompileExec2632794909.dir/build
+make[1]: Entering directory `/home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2632794909.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTryCompileExec2632794909.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2632794909
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2632794909.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTryCompileExec2632794909.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2632794909 -rdynamic 
+make[1]: Leaving directory `/home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
-Change Dir: /home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp
+Change Dir: /home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec1859461741/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1859461741.dir/build.make CMakeFiles/cmTryCompileExec1859461741.dir/build
-make[1]: Entering directory `/home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec1859461741.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTryCompileExec1859461741.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec1859461741
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1859461741.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTryCompileExec1859461741.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1859461741 -rdynamic -lICE 
-make[1]: Leaving directory `/home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp'
+Run Build Command:/usr/bin/make "cmTryCompileExec3209129681/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3209129681.dir/build.make CMakeFiles/cmTryCompileExec3209129681.dir/build
+make[1]: Entering directory `/home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3209129681.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTryCompileExec3209129681.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3209129681
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3209129681.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTryCompileExec3209129681.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3209129681 -rdynamic -lICE 
+make[1]: Leaving directory `/home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function png_create_read_struct exists passed with the following output:
-Change Dir: /home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp
+Change Dir: /home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec3517187742/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3517187742.dir/build.make CMakeFiles/cmTryCompileExec3517187742.dir/build
-make[1]: Entering directory `/home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec3517187742.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=png_create_read_struct   -o CMakeFiles/cmTryCompileExec3517187742.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec3517187742
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3517187742.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=png_create_read_struct    CMakeFiles/cmTryCompileExec3517187742.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3517187742 -rdynamic -lpng 
-make[1]: Leaving directory `/home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp'
+Run Build Command:/usr/bin/make "cmTryCompileExec2157230420/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2157230420.dir/build.make CMakeFiles/cmTryCompileExec2157230420.dir/build
+make[1]: Entering directory `/home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2157230420.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=png_create_read_struct   -o CMakeFiles/cmTryCompileExec2157230420.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2157230420
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2157230420.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=png_create_read_struct    CMakeFiles/cmTryCompileExec2157230420.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2157230420 -rdynamic -lpng 
+make[1]: Leaving directory `/home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function jpeg_read_header exists passed with the following output:
-Change Dir: /home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp
+Change Dir: /home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec3288219117/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3288219117.dir/build.make CMakeFiles/cmTryCompileExec3288219117.dir/build
-make[1]: Entering directory `/home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec3288219117.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=jpeg_read_header   -o CMakeFiles/cmTryCompileExec3288219117.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec3288219117
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3288219117.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=jpeg_read_header    CMakeFiles/cmTryCompileExec3288219117.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3288219117 -rdynamic -ljpeg 
-make[1]: Leaving directory `/home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp'
+Run Build Command:/usr/bin/make "cmTryCompileExec3100718459/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3100718459.dir/build.make CMakeFiles/cmTryCompileExec3100718459.dir/build
+make[1]: Entering directory `/home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3100718459.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=jpeg_read_header   -o CMakeFiles/cmTryCompileExec3100718459.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3100718459
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3100718459.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=jpeg_read_header    CMakeFiles/cmTryCompileExec3100718459.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3100718459 -rdynamic -ljpeg 
+make[1]: Leaving directory `/home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the include file sys/types.h exists passed with the following output:
-Change Dir: /home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp
+Change Dir: /home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec910326350/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec910326350.dir/build.make CMakeFiles/cmTryCompileExec910326350.dir/build
-make[1]: Entering directory `/home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec910326350.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec910326350.dir/CheckIncludeFile.c.o   -c /home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTryCompileExec910326350
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec910326350.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec910326350.dir/CheckIncludeFile.c.o  -o cmTryCompileExec910326350 -rdynamic 
-make[1]: Leaving directory `/home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp'
+Run Build Command:/usr/bin/make "cmTryCompileExec2300362838/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2300362838.dir/build.make CMakeFiles/cmTryCompileExec2300362838.dir/build
+make[1]: Entering directory `/home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2300362838.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2300362838.dir/CheckIncludeFile.c.o   -c /home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2300362838
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2300362838.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2300362838.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2300362838 -rdynamic 
+make[1]: Leaving directory `/home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the include file stdint.h exists passed with the following output:
-Change Dir: /home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp
+Change Dir: /home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec1983363042/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1983363042.dir/build.make CMakeFiles/cmTryCompileExec1983363042.dir/build
-make[1]: Entering directory `/home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec1983363042.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1983363042.dir/CheckIncludeFile.c.o   -c /home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTryCompileExec1983363042
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1983363042.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec1983363042.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1983363042 -rdynamic 
-make[1]: Leaving directory `/home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp'
+Run Build Command:/usr/bin/make "cmTryCompileExec3059977347/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3059977347.dir/build.make CMakeFiles/cmTryCompileExec3059977347.dir/build
+make[1]: Entering directory `/home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3059977347.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3059977347.dir/CheckIncludeFile.c.o   -c /home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3059977347
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3059977347.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3059977347.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3059977347 -rdynamic 
+make[1]: Leaving directory `/home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the include file stddef.h exists passed with the following output:
-Change Dir: /home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp
+Change Dir: /home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2009932605/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2009932605.dir/build.make CMakeFiles/cmTryCompileExec2009932605.dir/build
-make[1]: Entering directory `/home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2009932605.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2009932605.dir/CheckIncludeFile.c.o   -c /home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTryCompileExec2009932605
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2009932605.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec2009932605.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2009932605 -rdynamic 
-make[1]: Leaving directory `/home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp'
+Run Build Command:/usr/bin/make "cmTryCompileExec4055077531/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4055077531.dir/build.make CMakeFiles/cmTryCompileExec4055077531.dir/build
+make[1]: Entering directory `/home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4055077531.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4055077531.dir/CheckIncludeFile.c.o   -c /home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec4055077531
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4055077531.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec4055077531.dir/CheckIncludeFile.c.o  -o cmTryCompileExec4055077531 -rdynamic 
+make[1]: Leaving directory `/home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp'
 
 
 Determining size of void* passed with the following output:
-Change Dir: /home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp
+Change Dir: /home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec457629087/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec457629087.dir/build.make CMakeFiles/cmTryCompileExec457629087.dir/build
-make[1]: Entering directory `/home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec457629087.dir/SIZE_OF_VOID_PTR.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec457629087.dir/SIZE_OF_VOID_PTR.c.o   -c /home/lethic/projects/faceLandmark/build/CMakeFiles/CheckTypeSize/SIZE_OF_VOID_PTR.c
-Linking C executable cmTryCompileExec457629087
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec457629087.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec457629087.dir/SIZE_OF_VOID_PTR.c.o  -o cmTryCompileExec457629087 -rdynamic -ljpeg 
-make[1]: Leaving directory `/home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp'
+Run Build Command:/usr/bin/make "cmTryCompileExec2891171146/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2891171146.dir/build.make CMakeFiles/cmTryCompileExec2891171146.dir/build
+make[1]: Entering directory `/home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2891171146.dir/SIZE_OF_VOID_PTR.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2891171146.dir/SIZE_OF_VOID_PTR.c.o   -c /home/odroid/Documents/facial_control/build/CMakeFiles/CheckTypeSize/SIZE_OF_VOID_PTR.c
+Linking C executable cmTryCompileExec2891171146
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2891171146.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2891171146.dir/SIZE_OF_VOID_PTR.c.o  -o cmTryCompileExec2891171146 -rdynamic -ljpeg 
+make[1]: Leaving directory `/home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the CXX compiler has std namespace passed with the following output:
-Change Dir: /home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp
+Change Dir: /home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2213382302/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2213382302.dir/build.make CMakeFiles/cmTryCompileExec2213382302.dir/build
-make[1]: Entering directory `/home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec2213382302.dir/TestForSTDNamespace.cxx.o
-/usr/bin/c++    -Wreturn-type    -o CMakeFiles/cmTryCompileExec2213382302.dir/TestForSTDNamespace.cxx.o -c /usr/share/cmake-2.8/Modules/TestForSTDNamespace.cxx
-Linking CXX executable cmTryCompileExec2213382302
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2213382302.dir/link.txt --verbose=1
-/usr/bin/c++    -Wreturn-type     CMakeFiles/cmTryCompileExec2213382302.dir/TestForSTDNamespace.cxx.o  -o cmTryCompileExec2213382302 -rdynamic 
-make[1]: Leaving directory `/home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp'
+Run Build Command:/usr/bin/make "cmTryCompileExec3032896890/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3032896890.dir/build.make CMakeFiles/cmTryCompileExec3032896890.dir/build
+make[1]: Entering directory `/home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3032896890.dir/TestForSTDNamespace.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3032896890.dir/TestForSTDNamespace.cxx.o -c /usr/share/cmake-2.8/Modules/TestForSTDNamespace.cxx
+Linking CXX executable cmTryCompileExec3032896890
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3032896890.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec3032896890.dir/TestForSTDNamespace.cxx.o  -o cmTryCompileExec3032896890 -rdynamic 
+make[1]: Leaving directory `/home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the include file iostream exists passed with the following output:
-Change Dir: /home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp
+Change Dir: /home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec4050523500/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec4050523500.dir/build.make CMakeFiles/cmTryCompileExec4050523500.dir/build
-make[1]: Entering directory `/home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp'
-/usr/bin/cmake -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec4050523500.dir/CheckIncludeFile.cxx.o
-/usr/bin/c++    -Wreturn-type    -o CMakeFiles/cmTryCompileExec4050523500.dir/CheckIncludeFile.cxx.o -c /home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
-Linking CXX executable cmTryCompileExec4050523500
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4050523500.dir/link.txt --verbose=1
-/usr/bin/c++    -Wreturn-type     CMakeFiles/cmTryCompileExec4050523500.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec4050523500 -rdynamic 
-make[1]: Leaving directory `/home/lethic/projects/faceLandmark/build/CMakeFiles/CMakeTmp'
+Run Build Command:/usr/bin/make "cmTryCompileExec552031048/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec552031048.dir/build.make CMakeFiles/cmTryCompileExec552031048.dir/build
+make[1]: Entering directory `/home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec552031048.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec552031048.dir/CheckIncludeFile.cxx.o -c /home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec552031048
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec552031048.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec552031048.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec552031048 -rdynamic 
+make[1]: Leaving directory `/home/odroid/Documents/facial_control/build/CMakeFiles/CMakeTmp'
 
 

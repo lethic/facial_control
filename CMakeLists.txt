@@ -6,7 +6,7 @@
 
 cmake_minimum_required(VERSION 2.8.4)
 
-PROJECT(examples)
+PROJECT(facial_control)
 
 include(../dlib-18.17/dlib/cmake)
 

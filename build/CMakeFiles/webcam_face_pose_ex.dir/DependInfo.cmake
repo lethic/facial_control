@@ -4,19 +4,20 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/lethic/projects/faceLandmark/webcam_face_pose_ex.cpp" "/home/lethic/projects/faceLandmark/build/CMakeFiles/webcam_face_pose_ex.dir/webcam_face_pose_ex.cpp.o"
+  "/home/odroid/Documents/facial_control/webcam_face_pose_ex.cpp" "/home/odroid/Documents/facial_control/build/CMakeFiles/webcam_face_pose_ex.dir/webcam_face_pose_ex.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/lethic/projects/faceLandmark/build/dlib_build/CMakeFiles/dlib.dir/DependInfo.cmake"
+  "/home/odroid/Documents/facial_control/build/dlib_build/CMakeFiles/dlib.dir/DependInfo.cmake"
   )
 
 # The include file search paths:
 SET(CMAKE_C_TARGET_INCLUDE_PATH
-  "/home/lethic/projects/dlib-18.17/dlib/.."
-  "/usr/include/opencv"
+  "/home/odroid/Documents/dlib-18.17/dlib/.."
+  "/usr/local/include/opencv"
+  "/usr/local/include"
   )
 SET(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
 SET(CMAKE_Fortran_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

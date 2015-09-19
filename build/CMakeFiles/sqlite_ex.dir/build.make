@@ -34,11 +34,14 @@ RM = /usr/bin/cmake -E remove -f
 # Escaping for special characters.
 EQUALS = =
 
+# The program to use to edit the cache.
+CMAKE_EDIT_COMMAND = /usr/bin/ccmake
+
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lethic/projects/faceLandmark
+CMAKE_SOURCE_DIR = /home/odroid/Documents/facial_control
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lethic/projects/faceLandmark/build
+CMAKE_BINARY_DIR = /home/odroid/Documents/facial_control/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/sqlite_ex.dir/depend.make
@@ -51,17 +54,17 @@ include CMakeFiles/sqlite_ex.dir/flags.make
 
 CMakeFiles/sqlite_ex.dir/sqlite_ex.cpp.o: CMakeFiles/sqlite_ex.dir/flags.make
 CMakeFiles/sqlite_ex.dir/sqlite_ex.cpp.o: ../sqlite_ex.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/sqlite_ex.dir/sqlite_ex.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sqlite_ex.dir/sqlite_ex.cpp.o -c /home/lethic/projects/faceLandmark/sqlite_ex.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sqlite_ex.dir/sqlite_ex.cpp.o -c /home/odroid/Documents/facial_control/sqlite_ex.cpp
 
 CMakeFiles/sqlite_ex.dir/sqlite_ex.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sqlite_ex.dir/sqlite_ex.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lethic/projects/faceLandmark/sqlite_ex.cpp > CMakeFiles/sqlite_ex.dir/sqlite_ex.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odroid/Documents/facial_control/sqlite_ex.cpp > CMakeFiles/sqlite_ex.dir/sqlite_ex.cpp.i
 
 CMakeFiles/sqlite_ex.dir/sqlite_ex.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sqlite_ex.dir/sqlite_ex.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lethic/projects/faceLandmark/sqlite_ex.cpp -o CMakeFiles/sqlite_ex.dir/sqlite_ex.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odroid/Documents/facial_control/sqlite_ex.cpp -o CMakeFiles/sqlite_ex.dir/sqlite_ex.cpp.s
 
 CMakeFiles/sqlite_ex.dir/sqlite_ex.cpp.o.requires:
 .PHONY : CMakeFiles/sqlite_ex.dir/sqlite_ex.cpp.o.requires
@@ -82,15 +85,15 @@ sqlite_ex_EXTERNAL_OBJECTS =
 sqlite_ex: CMakeFiles/sqlite_ex.dir/sqlite_ex.cpp.o
 sqlite_ex: CMakeFiles/sqlite_ex.dir/build.make
 sqlite_ex: dlib_build/libdlib.a
-sqlite_ex: /usr/lib/x86_64-linux-gnu/libpthread.so
-sqlite_ex: /usr/lib/x86_64-linux-gnu/libnsl.so
-sqlite_ex: /usr/lib/x86_64-linux-gnu/libSM.so
-sqlite_ex: /usr/lib/x86_64-linux-gnu/libICE.so
-sqlite_ex: /usr/lib/x86_64-linux-gnu/libX11.so
-sqlite_ex: /usr/lib/x86_64-linux-gnu/libXext.so
-sqlite_ex: /usr/lib/x86_64-linux-gnu/libpng.so
-sqlite_ex: /usr/lib/x86_64-linux-gnu/libjpeg.so
-sqlite_ex: /usr/lib/x86_64-linux-gnu/libsqlite3.so
+sqlite_ex: /usr/lib/arm-linux-gnueabihf/libpthread.so
+sqlite_ex: /usr/lib/arm-linux-gnueabihf/libnsl.so
+sqlite_ex: /usr/lib/arm-linux-gnueabihf/libSM.so
+sqlite_ex: /usr/lib/arm-linux-gnueabihf/libICE.so
+sqlite_ex: /usr/lib/arm-linux-gnueabihf/libX11.so
+sqlite_ex: /usr/lib/arm-linux-gnueabihf/libXext.so
+sqlite_ex: /usr/lib/arm-linux-gnueabihf/libpng.so
+sqlite_ex: /usr/lib/arm-linux-gnueabihf/libjpeg.so
+sqlite_ex: /usr/lib/arm-linux-gnueabihf/libsqlite3.so
 sqlite_ex: CMakeFiles/sqlite_ex.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable sqlite_ex"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sqlite_ex.dir/link.txt --verbose=$(VERBOSE)
@@ -107,6 +110,6 @@ CMakeFiles/sqlite_ex.dir/clean:
 .PHONY : CMakeFiles/sqlite_ex.dir/clean
 
 CMakeFiles/sqlite_ex.dir/depend:
-	cd /home/lethic/projects/faceLandmark/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lethic/projects/faceLandmark /home/lethic/projects/faceLandmark /home/lethic/projects/faceLandmark/build /home/lethic/projects/faceLandmark/build /home/lethic/projects/faceLandmark/build/CMakeFiles/sqlite_ex.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/odroid/Documents/facial_control/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/odroid/Documents/facial_control /home/odroid/Documents/facial_control /home/odroid/Documents/facial_control/build /home/odroid/Documents/facial_control/build /home/odroid/Documents/facial_control/build/CMakeFiles/sqlite_ex.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/sqlite_ex.dir/depend
 
