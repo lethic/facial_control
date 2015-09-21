@@ -38,22 +38,19 @@ RM = /usr/bin/cmake -E remove -f
 # Escaping for special characters.
 EQUALS = =
 
-# The program to use to edit the cache.
-CMAKE_EDIT_COMMAND = /usr/bin/ccmake
-
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/odroid/Documents/facial_control
+CMAKE_SOURCE_DIR = /home/lethic/projects/faceLandmark
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/odroid/Documents/facial_control/build
+CMAKE_BINARY_DIR = /home/lethic/projects/faceLandmark/build
 
 #=============================================================================
 # Targets provided globally by CMake.
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running interactive CMake command-line interface..."
+	/usr/bin/cmake -i .
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -72,14 +69,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/odroid/Documents/facial_control/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/odroid/Documents/facial_control/build/CMakeFiles /home/odroid/Documents/facial_control/build/dlib_build/CMakeFiles/progress.marks
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f CMakeFiles/Makefile2 dlib_build/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/odroid/Documents/facial_control/build/CMakeFiles 0
+	cd /home/lethic/projects/faceLandmark/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/lethic/projects/faceLandmark/build/CMakeFiles /home/lethic/projects/faceLandmark/build/dlib_build/CMakeFiles/progress.marks
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f CMakeFiles/Makefile2 dlib_build/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lethic/projects/faceLandmark/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f CMakeFiles/Makefile2 dlib_build/clean
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f CMakeFiles/Makefile2 dlib_build/clean
 .PHONY : clean
 
 # The main clean target
@@ -88,22 +85,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f CMakeFiles/Makefile2 dlib_build/preinstall
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f CMakeFiles/Makefile2 dlib_build/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f CMakeFiles/Makefile2 dlib_build/preinstall
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f CMakeFiles/Makefile2 dlib_build/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/odroid/Documents/facial_control/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/lethic/projects/faceLandmark/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 dlib_build/CMakeFiles/dlib.dir/rule:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f CMakeFiles/Makefile2 dlib_build/CMakeFiles/dlib.dir/rule
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f CMakeFiles/Makefile2 dlib_build/CMakeFiles/dlib.dir/rule
 .PHONY : dlib_build/CMakeFiles/dlib.dir/rule
 
 # Convenience name for target.
@@ -112,757 +109,757 @@ dlib: dlib_build/CMakeFiles/dlib.dir/rule
 
 # fast build rule for target.
 dlib/fast:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/build
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/build
 .PHONY : dlib/fast
 
 # target to build an object file
 base64/base64_kernel_1.o:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/base64/base64_kernel_1.o
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/base64/base64_kernel_1.o
 .PHONY : base64/base64_kernel_1.o
 
 # target to preprocess a source file
 base64/base64_kernel_1.i:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/base64/base64_kernel_1.i
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/base64/base64_kernel_1.i
 .PHONY : base64/base64_kernel_1.i
 
 # target to generate assembly for a file
 base64/base64_kernel_1.s:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/base64/base64_kernel_1.s
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/base64/base64_kernel_1.s
 .PHONY : base64/base64_kernel_1.s
 
 # target to build an object file
 bigint/bigint_kernel_1.o:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_1.o
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_1.o
 .PHONY : bigint/bigint_kernel_1.o
 
 # target to preprocess a source file
 bigint/bigint_kernel_1.i:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_1.i
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_1.i
 .PHONY : bigint/bigint_kernel_1.i
 
 # target to generate assembly for a file
 bigint/bigint_kernel_1.s:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_1.s
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_1.s
 .PHONY : bigint/bigint_kernel_1.s
 
 # target to build an object file
 bigint/bigint_kernel_2.o:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_2.o
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_2.o
 .PHONY : bigint/bigint_kernel_2.o
 
 # target to preprocess a source file
 bigint/bigint_kernel_2.i:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_2.i
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_2.i
 .PHONY : bigint/bigint_kernel_2.i
 
 # target to generate assembly for a file
 bigint/bigint_kernel_2.s:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_2.s
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_2.s
 .PHONY : bigint/bigint_kernel_2.s
 
 # target to build an object file
 bit_stream/bit_stream_kernel_1.o:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bit_stream/bit_stream_kernel_1.o
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bit_stream/bit_stream_kernel_1.o
 .PHONY : bit_stream/bit_stream_kernel_1.o
 
 # target to preprocess a source file
 bit_stream/bit_stream_kernel_1.i:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bit_stream/bit_stream_kernel_1.i
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bit_stream/bit_stream_kernel_1.i
 .PHONY : bit_stream/bit_stream_kernel_1.i
 
 # target to generate assembly for a file
 bit_stream/bit_stream_kernel_1.s:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bit_stream/bit_stream_kernel_1.s
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bit_stream/bit_stream_kernel_1.s
 .PHONY : bit_stream/bit_stream_kernel_1.s
 
 # target to build an object file
 bsp/bsp.o:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bsp/bsp.o
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bsp/bsp.o
 .PHONY : bsp/bsp.o
 
 # target to preprocess a source file
 bsp/bsp.i:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bsp/bsp.i
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bsp/bsp.i
 .PHONY : bsp/bsp.i
 
 # target to generate assembly for a file
 bsp/bsp.s:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bsp/bsp.s
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bsp/bsp.s
 .PHONY : bsp/bsp.s
 
 # target to build an object file
 data_io/image_dataset_metadata.o:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/data_io/image_dataset_metadata.o
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/data_io/image_dataset_metadata.o
 .PHONY : data_io/image_dataset_metadata.o
 
 # target to preprocess a source file
 data_io/image_dataset_metadata.i:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/data_io/image_dataset_metadata.i
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/data_io/image_dataset_metadata.i
 .PHONY : data_io/image_dataset_metadata.i
 
 # target to generate assembly for a file
 data_io/image_dataset_metadata.s:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/data_io/image_dataset_metadata.s
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/data_io/image_dataset_metadata.s
 .PHONY : data_io/image_dataset_metadata.s
 
 # target to build an object file
 dir_nav/dir_nav_extensions.o:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.o
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.o
 .PHONY : dir_nav/dir_nav_extensions.o
 
 # target to preprocess a source file
 dir_nav/dir_nav_extensions.i:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.i
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.i
 .PHONY : dir_nav/dir_nav_extensions.i
 
 # target to generate assembly for a file
 dir_nav/dir_nav_extensions.s:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.s
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.s
 .PHONY : dir_nav/dir_nav_extensions.s
 
 # target to build an object file
 dir_nav/dir_nav_kernel_1.o:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.o
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.o
 .PHONY : dir_nav/dir_nav_kernel_1.o
 
 # target to preprocess a source file
 dir_nav/dir_nav_kernel_1.i:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.i
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.i
 .PHONY : dir_nav/dir_nav_kernel_1.i
 
 # target to generate assembly for a file
 dir_nav/dir_nav_kernel_1.s:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.s
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.s
 .PHONY : dir_nav/dir_nav_kernel_1.s
 
 # target to build an object file
 dir_nav/dir_nav_kernel_2.o:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.o
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.o
 .PHONY : dir_nav/dir_nav_kernel_2.o
 
 # target to preprocess a source file
 dir_nav/dir_nav_kernel_2.i:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.i
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.i
 .PHONY : dir_nav/dir_nav_kernel_2.i
 
 # target to generate assembly for a file
 dir_nav/dir_nav_kernel_2.s:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.s
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.s
 .PHONY : dir_nav/dir_nav_kernel_2.s
 
 # target to build an object file
 entropy_decoder/entropy_decoder_kernel_1.o:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_1.o
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_1.o
 .PHONY : entropy_decoder/entropy_decoder_kernel_1.o
 
 # target to preprocess a source file
 entropy_decoder/entropy_decoder_kernel_1.i:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_1.i
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_1.i
 .PHONY : entropy_decoder/entropy_decoder_kernel_1.i
 
 # target to generate assembly for a file
 entropy_decoder/entropy_decoder_kernel_1.s:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_1.s
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_1.s
 .PHONY : entropy_decoder/entropy_decoder_kernel_1.s
 
 # target to build an object file
 entropy_decoder/entropy_decoder_kernel_2.o:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_2.o
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_2.o
 .PHONY : entropy_decoder/entropy_decoder_kernel_2.o
 
 # target to preprocess a source file
 entropy_decoder/entropy_decoder_kernel_2.i:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_2.i
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_2.i
 .PHONY : entropy_decoder/entropy_decoder_kernel_2.i
 
 # target to generate assembly for a file
 entropy_decoder/entropy_decoder_kernel_2.s:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_2.s
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_2.s
 .PHONY : entropy_decoder/entropy_decoder_kernel_2.s
 
 # target to build an object file
 entropy_encoder/entropy_encoder_kernel_1.o:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_1.o
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_1.o
 .PHONY : entropy_encoder/entropy_encoder_kernel_1.o
 
 # target to preprocess a source file
 entropy_encoder/entropy_encoder_kernel_1.i:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_1.i
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_1.i
 .PHONY : entropy_encoder/entropy_encoder_kernel_1.i
 
 # target to generate assembly for a file
 entropy_encoder/entropy_encoder_kernel_1.s:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_1.s
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_1.s
 .PHONY : entropy_encoder/entropy_encoder_kernel_1.s
 
 # target to build an object file
 entropy_encoder/entropy_encoder_kernel_2.o:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_2.o
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_2.o
 .PHONY : entropy_encoder/entropy_encoder_kernel_2.o
 
 # target to preprocess a source file
 entropy_encoder/entropy_encoder_kernel_2.i:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_2.i
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_2.i
 .PHONY : entropy_encoder/entropy_encoder_kernel_2.i
 
 # target to generate assembly for a file
 entropy_encoder/entropy_encoder_kernel_2.s:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_2.s
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_2.s
 .PHONY : entropy_encoder/entropy_encoder_kernel_2.s
 
 # target to build an object file
 gui_core/gui_core_kernel_1.o:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.o
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.o
 .PHONY : gui_core/gui_core_kernel_1.o
 
 # target to preprocess a source file
 gui_core/gui_core_kernel_1.i:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.i
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.i
 .PHONY : gui_core/gui_core_kernel_1.i
 
 # target to generate assembly for a file
 gui_core/gui_core_kernel_1.s:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.s
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.s
 .PHONY : gui_core/gui_core_kernel_1.s
 
 # target to build an object file
 gui_core/gui_core_kernel_2.o:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.o
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.o
 .PHONY : gui_core/gui_core_kernel_2.o
 
 # target to preprocess a source file
 gui_core/gui_core_kernel_2.i:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.i
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.i
 .PHONY : gui_core/gui_core_kernel_2.i
 
 # target to generate assembly for a file
 gui_core/gui_core_kernel_2.s:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.s
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.s
 .PHONY : gui_core/gui_core_kernel_2.s
 
 # target to build an object file
 gui_widgets/base_widgets.o:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/base_widgets.o
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/base_widgets.o
 .PHONY : gui_widgets/base_widgets.o
 
 # target to preprocess a source file
 gui_widgets/base_widgets.i:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/base_widgets.i
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/base_widgets.i
 .PHONY : gui_widgets/base_widgets.i
 
 # target to generate assembly for a file
 gui_widgets/base_widgets.s:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/base_widgets.s
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/base_widgets.s
 .PHONY : gui_widgets/base_widgets.s
 
 # target to build an object file
 gui_widgets/canvas_drawing.o:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.o
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.o
 .PHONY : gui_widgets/canvas_drawing.o
 
 # target to preprocess a source file
 gui_widgets/canvas_drawing.i:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.i
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.i
 .PHONY : gui_widgets/canvas_drawing.i
 
 # target to generate assembly for a file
 gui_widgets/canvas_drawing.s:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.s
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.s
 .PHONY : gui_widgets/canvas_drawing.s
 
 # target to build an object file
 gui_widgets/drawable.o:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/drawable.o
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/drawable.o
 .PHONY : gui_widgets/drawable.o
 
 # target to preprocess a source file
 gui_widgets/drawable.i:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/drawable.i
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/drawable.i
 .PHONY : gui_widgets/drawable.i
 
 # target to generate assembly for a file
 gui_widgets/drawable.s:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/drawable.s
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/drawable.s
 .PHONY : gui_widgets/drawable.s
 
 # target to build an object file
 gui_widgets/fonts.o:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/fonts.o
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/fonts.o
 .PHONY : gui_widgets/fonts.o
 
 # target to preprocess a source file
 gui_widgets/fonts.i:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/fonts.i
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/fonts.i
 .PHONY : gui_widgets/fonts.i
 
 # target to generate assembly for a file
 gui_widgets/fonts.s:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/fonts.s
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/fonts.s
 .PHONY : gui_widgets/fonts.s
 
 # target to build an object file
 gui_widgets/style.o:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/style.o
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/style.o
 .PHONY : gui_widgets/style.o
 
 # target to preprocess a source file
 gui_widgets/style.i:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/style.i
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/style.i
 .PHONY : gui_widgets/style.i
 
 # target to generate assembly for a file
 gui_widgets/style.s:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/style.s
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/style.s
 .PHONY : gui_widgets/style.s
 
 # target to build an object file
 gui_widgets/widgets.o:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/widgets.o
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/widgets.o
 .PHONY : gui_widgets/widgets.o
 
 # target to preprocess a source file
 gui_widgets/widgets.i:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/widgets.i
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/widgets.i
 .PHONY : gui_widgets/widgets.i
 
 # target to generate assembly for a file
 gui_widgets/widgets.s:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/widgets.s
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/widgets.s
 .PHONY : gui_widgets/widgets.s
 
 # target to build an object file
 image_loader/jpeg_loader.o:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_loader/jpeg_loader.o
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_loader/jpeg_loader.o
 .PHONY : image_loader/jpeg_loader.o
 
 # target to preprocess a source file
 image_loader/jpeg_loader.i:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_loader/jpeg_loader.i
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_loader/jpeg_loader.i
 .PHONY : image_loader/jpeg_loader.i
 
 # target to generate assembly for a file
 image_loader/jpeg_loader.s:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_loader/jpeg_loader.s
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_loader/jpeg_loader.s
 .PHONY : image_loader/jpeg_loader.s
 
 # target to build an object file
 image_loader/png_loader.o:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_loader/png_loader.o
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_loader/png_loader.o
 .PHONY : image_loader/png_loader.o
 
 # target to preprocess a source file
 image_loader/png_loader.i:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_loader/png_loader.i
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_loader/png_loader.i
 .PHONY : image_loader/png_loader.i
 
 # target to generate assembly for a file
 image_loader/png_loader.s:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_loader/png_loader.s
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_loader/png_loader.s
 .PHONY : image_loader/png_loader.s
 
 # target to build an object file
 image_saver/save_jpeg.o:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_saver/save_jpeg.o
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_saver/save_jpeg.o
 .PHONY : image_saver/save_jpeg.o
 
 # target to preprocess a source file
 image_saver/save_jpeg.i:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_saver/save_jpeg.i
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_saver/save_jpeg.i
 .PHONY : image_saver/save_jpeg.i
 
 # target to generate assembly for a file
 image_saver/save_jpeg.s:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_saver/save_jpeg.s
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_saver/save_jpeg.s
 .PHONY : image_saver/save_jpeg.s
 
 # target to build an object file
 image_saver/save_png.o:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_saver/save_png.o
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_saver/save_png.o
 .PHONY : image_saver/save_png.o
 
 # target to preprocess a source file
 image_saver/save_png.i:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_saver/save_png.i
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_saver/save_png.i
 .PHONY : image_saver/save_png.i
 
 # target to generate assembly for a file
 image_saver/save_png.s:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_saver/save_png.s
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_saver/save_png.s
 .PHONY : image_saver/save_png.s
 
 # target to build an object file
 linker/linker_kernel_1.o:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/linker/linker_kernel_1.o
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/linker/linker_kernel_1.o
 .PHONY : linker/linker_kernel_1.o
 
 # target to preprocess a source file
 linker/linker_kernel_1.i:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/linker/linker_kernel_1.i
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/linker/linker_kernel_1.i
 .PHONY : linker/linker_kernel_1.i
 
 # target to generate assembly for a file
 linker/linker_kernel_1.s:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/linker/linker_kernel_1.s
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/linker/linker_kernel_1.s
 .PHONY : linker/linker_kernel_1.s
 
 # target to build an object file
 logger/extra_logger_headers.o:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/logger/extra_logger_headers.o
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/logger/extra_logger_headers.o
 .PHONY : logger/extra_logger_headers.o
 
 # target to preprocess a source file
 logger/extra_logger_headers.i:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/logger/extra_logger_headers.i
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/logger/extra_logger_headers.i
 .PHONY : logger/extra_logger_headers.i
 
 # target to generate assembly for a file
 logger/extra_logger_headers.s:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/logger/extra_logger_headers.s
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/logger/extra_logger_headers.s
 .PHONY : logger/extra_logger_headers.s
 
 # target to build an object file
 logger/logger_config_file.o:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/logger/logger_config_file.o
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/logger/logger_config_file.o
 .PHONY : logger/logger_config_file.o
 
 # target to preprocess a source file
 logger/logger_config_file.i:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/logger/logger_config_file.i
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/logger/logger_config_file.i
 .PHONY : logger/logger_config_file.i
 
 # target to generate assembly for a file
 logger/logger_config_file.s:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/logger/logger_config_file.s
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/logger/logger_config_file.s
 .PHONY : logger/logger_config_file.s
 
 # target to build an object file
 logger/logger_kernel_1.o:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/logger/logger_kernel_1.o
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/logger/logger_kernel_1.o
 .PHONY : logger/logger_kernel_1.o
 
 # target to preprocess a source file
 logger/logger_kernel_1.i:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/logger/logger_kernel_1.i
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/logger/logger_kernel_1.i
 .PHONY : logger/logger_kernel_1.i
 
 # target to generate assembly for a file
 logger/logger_kernel_1.s:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/logger/logger_kernel_1.s
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/logger/logger_kernel_1.s
 .PHONY : logger/logger_kernel_1.s
 
 # target to build an object file
 md5/md5_kernel_1.o:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/md5/md5_kernel_1.o
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/md5/md5_kernel_1.o
 .PHONY : md5/md5_kernel_1.o
 
 # target to preprocess a source file
 md5/md5_kernel_1.i:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/md5/md5_kernel_1.i
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/md5/md5_kernel_1.i
 .PHONY : md5/md5_kernel_1.i
 
 # target to generate assembly for a file
 md5/md5_kernel_1.s:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/md5/md5_kernel_1.s
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/md5/md5_kernel_1.s
 .PHONY : md5/md5_kernel_1.s
 
 # target to build an object file
 misc_api/misc_api_kernel_1.o:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.o
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.o
 .PHONY : misc_api/misc_api_kernel_1.o
 
 # target to preprocess a source file
 misc_api/misc_api_kernel_1.i:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.i
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.i
 .PHONY : misc_api/misc_api_kernel_1.i
 
 # target to generate assembly for a file
 misc_api/misc_api_kernel_1.s:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.s
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.s
 .PHONY : misc_api/misc_api_kernel_1.s
 
 # target to build an object file
 misc_api/misc_api_kernel_2.o:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.o
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.o
 .PHONY : misc_api/misc_api_kernel_2.o
 
 # target to preprocess a source file
 misc_api/misc_api_kernel_2.i:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.i
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.i
 .PHONY : misc_api/misc_api_kernel_2.i
 
 # target to generate assembly for a file
 misc_api/misc_api_kernel_2.s:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.s
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.s
 .PHONY : misc_api/misc_api_kernel_2.s
 
 # target to build an object file
 server/server_http.o:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/server/server_http.o
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/server/server_http.o
 .PHONY : server/server_http.o
 
 # target to preprocess a source file
 server/server_http.i:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/server/server_http.i
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/server/server_http.i
 .PHONY : server/server_http.i
 
 # target to generate assembly for a file
 server/server_http.s:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/server/server_http.s
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/server/server_http.s
 .PHONY : server/server_http.s
 
 # target to build an object file
 server/server_iostream.o:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/server/server_iostream.o
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/server/server_iostream.o
 .PHONY : server/server_iostream.o
 
 # target to preprocess a source file
 server/server_iostream.i:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/server/server_iostream.i
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/server/server_iostream.i
 .PHONY : server/server_iostream.i
 
 # target to generate assembly for a file
 server/server_iostream.s:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/server/server_iostream.s
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/server/server_iostream.s
 .PHONY : server/server_iostream.s
 
 # target to build an object file
 server/server_kernel.o:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/server/server_kernel.o
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/server/server_kernel.o
 .PHONY : server/server_kernel.o
 
 # target to preprocess a source file
 server/server_kernel.i:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/server/server_kernel.i
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/server/server_kernel.i
 .PHONY : server/server_kernel.i
 
 # target to generate assembly for a file
 server/server_kernel.s:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/server/server_kernel.s
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/server/server_kernel.s
 .PHONY : server/server_kernel.s
 
 # target to build an object file
 sockets/sockets_extensions.o:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockets/sockets_extensions.o
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockets/sockets_extensions.o
 .PHONY : sockets/sockets_extensions.o
 
 # target to preprocess a source file
 sockets/sockets_extensions.i:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockets/sockets_extensions.i
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockets/sockets_extensions.i
 .PHONY : sockets/sockets_extensions.i
 
 # target to generate assembly for a file
 sockets/sockets_extensions.s:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockets/sockets_extensions.s
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockets/sockets_extensions.s
 .PHONY : sockets/sockets_extensions.s
 
 # target to build an object file
 sockets/sockets_kernel_1.o:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_1.o
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_1.o
 .PHONY : sockets/sockets_kernel_1.o
 
 # target to preprocess a source file
 sockets/sockets_kernel_1.i:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_1.i
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_1.i
 .PHONY : sockets/sockets_kernel_1.i
 
 # target to generate assembly for a file
 sockets/sockets_kernel_1.s:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_1.s
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_1.s
 .PHONY : sockets/sockets_kernel_1.s
 
 # target to build an object file
 sockets/sockets_kernel_2.o:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_2.o
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_2.o
 .PHONY : sockets/sockets_kernel_2.o
 
 # target to preprocess a source file
 sockets/sockets_kernel_2.i:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_2.i
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_2.i
 .PHONY : sockets/sockets_kernel_2.i
 
 # target to generate assembly for a file
 sockets/sockets_kernel_2.s:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_2.s
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_2.s
 .PHONY : sockets/sockets_kernel_2.s
 
 # target to build an object file
 sockstreambuf/sockstreambuf.o:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.o
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.o
 .PHONY : sockstreambuf/sockstreambuf.o
 
 # target to preprocess a source file
 sockstreambuf/sockstreambuf.i:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.i
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.i
 .PHONY : sockstreambuf/sockstreambuf.i
 
 # target to generate assembly for a file
 sockstreambuf/sockstreambuf.s:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.s
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.s
 .PHONY : sockstreambuf/sockstreambuf.s
 
 # target to build an object file
 sockstreambuf/sockstreambuf_unbuffered.o:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.o
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.o
 .PHONY : sockstreambuf/sockstreambuf_unbuffered.o
 
 # target to preprocess a source file
 sockstreambuf/sockstreambuf_unbuffered.i:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.i
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.i
 .PHONY : sockstreambuf/sockstreambuf_unbuffered.i
 
 # target to generate assembly for a file
 sockstreambuf/sockstreambuf_unbuffered.s:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.s
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.s
 .PHONY : sockstreambuf/sockstreambuf_unbuffered.s
 
 # target to build an object file
 stack_trace.o:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/stack_trace.o
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/stack_trace.o
 .PHONY : stack_trace.o
 
 # target to preprocess a source file
 stack_trace.i:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/stack_trace.i
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/stack_trace.i
 .PHONY : stack_trace.i
 
 # target to generate assembly for a file
 stack_trace.s:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/stack_trace.s
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/stack_trace.s
 .PHONY : stack_trace.s
 
 # target to build an object file
 threads/multithreaded_object_extension.o:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/multithreaded_object_extension.o
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/multithreaded_object_extension.o
 .PHONY : threads/multithreaded_object_extension.o
 
 # target to preprocess a source file
 threads/multithreaded_object_extension.i:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/multithreaded_object_extension.i
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/multithreaded_object_extension.i
 .PHONY : threads/multithreaded_object_extension.i
 
 # target to generate assembly for a file
 threads/multithreaded_object_extension.s:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/multithreaded_object_extension.s
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/multithreaded_object_extension.s
 .PHONY : threads/multithreaded_object_extension.s
 
 # target to build an object file
 threads/thread_pool_extension.o:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/thread_pool_extension.o
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/thread_pool_extension.o
 .PHONY : threads/thread_pool_extension.o
 
 # target to preprocess a source file
 threads/thread_pool_extension.i:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/thread_pool_extension.i
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/thread_pool_extension.i
 .PHONY : threads/thread_pool_extension.i
 
 # target to generate assembly for a file
 threads/thread_pool_extension.s:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/thread_pool_extension.s
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/thread_pool_extension.s
 .PHONY : threads/thread_pool_extension.s
 
 # target to build an object file
 threads/threaded_object_extension.o:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threaded_object_extension.o
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threaded_object_extension.o
 .PHONY : threads/threaded_object_extension.o
 
 # target to preprocess a source file
 threads/threaded_object_extension.i:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threaded_object_extension.i
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threaded_object_extension.i
 .PHONY : threads/threaded_object_extension.i
 
 # target to generate assembly for a file
 threads/threaded_object_extension.s:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threaded_object_extension.s
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threaded_object_extension.s
 .PHONY : threads/threaded_object_extension.s
 
 # target to build an object file
 threads/threads_kernel_1.o:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_1.o
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_1.o
 .PHONY : threads/threads_kernel_1.o
 
 # target to preprocess a source file
 threads/threads_kernel_1.i:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_1.i
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_1.i
 .PHONY : threads/threads_kernel_1.i
 
 # target to generate assembly for a file
 threads/threads_kernel_1.s:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_1.s
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_1.s
 .PHONY : threads/threads_kernel_1.s
 
 # target to build an object file
 threads/threads_kernel_2.o:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_2.o
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_2.o
 .PHONY : threads/threads_kernel_2.o
 
 # target to preprocess a source file
 threads/threads_kernel_2.i:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_2.i
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_2.i
 .PHONY : threads/threads_kernel_2.i
 
 # target to generate assembly for a file
 threads/threads_kernel_2.s:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_2.s
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_2.s
 .PHONY : threads/threads_kernel_2.s
 
 # target to build an object file
 threads/threads_kernel_shared.o:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_shared.o
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_shared.o
 .PHONY : threads/threads_kernel_shared.o
 
 # target to preprocess a source file
 threads/threads_kernel_shared.i:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_shared.i
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_shared.i
 .PHONY : threads/threads_kernel_shared.i
 
 # target to generate assembly for a file
 threads/threads_kernel_shared.s:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_shared.s
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_shared.s
 .PHONY : threads/threads_kernel_shared.s
 
 # target to build an object file
 timer/timer.o:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/timer/timer.o
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/timer/timer.o
 .PHONY : timer/timer.o
 
 # target to preprocess a source file
 timer/timer.i:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/timer/timer.i
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/timer/timer.i
 .PHONY : timer/timer.i
 
 # target to generate assembly for a file
 timer/timer.s:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/timer/timer.s
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/timer/timer.s
 .PHONY : timer/timer.s
 
 # target to build an object file
 tokenizer/tokenizer_kernel_1.o:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.o
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.o
 .PHONY : tokenizer/tokenizer_kernel_1.o
 
 # target to preprocess a source file
 tokenizer/tokenizer_kernel_1.i:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.i
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.i
 .PHONY : tokenizer/tokenizer_kernel_1.i
 
 # target to generate assembly for a file
 tokenizer/tokenizer_kernel_1.s:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.s
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.s
 .PHONY : tokenizer/tokenizer_kernel_1.s
 
 # target to build an object file
 unicode/unicode.o:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/unicode/unicode.o
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/unicode/unicode.o
 .PHONY : unicode/unicode.o
 
 # target to preprocess a source file
 unicode/unicode.i:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/unicode/unicode.i
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/unicode/unicode.i
 .PHONY : unicode/unicode.i
 
 # target to generate assembly for a file
 unicode/unicode.s:
-	cd /home/odroid/Documents/facial_control/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/unicode/unicode.s
+	cd /home/lethic/projects/faceLandmark/build && $(MAKE) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/unicode/unicode.s
 .PHONY : unicode/unicode.s
 
 # Help Target
@@ -1035,6 +1032,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/odroid/Documents/facial_control/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/lethic/projects/faceLandmark/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

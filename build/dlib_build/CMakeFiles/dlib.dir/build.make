@@ -34,14 +34,11 @@ RM = /usr/bin/cmake -E remove -f
 # Escaping for special characters.
 EQUALS = =
 
-# The program to use to edit the cache.
-CMAKE_EDIT_COMMAND = /usr/bin/ccmake
-
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/odroid/Documents/facial_control
+CMAKE_SOURCE_DIR = /home/lethic/projects/faceLandmark
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/odroid/Documents/facial_control/build
+CMAKE_BINARY_DIR = /home/lethic/projects/faceLandmark/build
 
 # Include any dependencies generated for this target.
 include dlib_build/CMakeFiles/dlib.dir/depend.make
@@ -53,18 +50,18 @@ include dlib_build/CMakeFiles/dlib.dir/progress.make
 include dlib_build/CMakeFiles/dlib.dir/flags.make
 
 dlib_build/CMakeFiles/dlib.dir/base64/base64_kernel_1.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/base64/base64_kernel_1.o: /home/odroid/Documents/dlib-18.17/dlib/base64/base64_kernel_1.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles $(CMAKE_PROGRESS_1)
+dlib_build/CMakeFiles/dlib.dir/base64/base64_kernel_1.o: /home/lethic/projects/dlib-18.17/dlib/base64/base64_kernel_1.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object dlib_build/CMakeFiles/dlib.dir/base64/base64_kernel_1.o"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/base64/base64_kernel_1.o -c /home/odroid/Documents/dlib-18.17/dlib/base64/base64_kernel_1.cpp
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/base64/base64_kernel_1.o -c /home/lethic/projects/dlib-18.17/dlib/base64/base64_kernel_1.cpp
 
 dlib_build/CMakeFiles/dlib.dir/base64/base64_kernel_1.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/base64/base64_kernel_1.i"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odroid/Documents/dlib-18.17/dlib/base64/base64_kernel_1.cpp > CMakeFiles/dlib.dir/base64/base64_kernel_1.i
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lethic/projects/dlib-18.17/dlib/base64/base64_kernel_1.cpp > CMakeFiles/dlib.dir/base64/base64_kernel_1.i
 
 dlib_build/CMakeFiles/dlib.dir/base64/base64_kernel_1.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/base64/base64_kernel_1.s"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odroid/Documents/dlib-18.17/dlib/base64/base64_kernel_1.cpp -o CMakeFiles/dlib.dir/base64/base64_kernel_1.s
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lethic/projects/dlib-18.17/dlib/base64/base64_kernel_1.cpp -o CMakeFiles/dlib.dir/base64/base64_kernel_1.s
 
 dlib_build/CMakeFiles/dlib.dir/base64/base64_kernel_1.o.requires:
 .PHONY : dlib_build/CMakeFiles/dlib.dir/base64/base64_kernel_1.o.requires
@@ -76,18 +73,18 @@ dlib_build/CMakeFiles/dlib.dir/base64/base64_kernel_1.o.provides: dlib_build/CMa
 dlib_build/CMakeFiles/dlib.dir/base64/base64_kernel_1.o.provides.build: dlib_build/CMakeFiles/dlib.dir/base64/base64_kernel_1.o
 
 dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_1.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_1.o: /home/odroid/Documents/dlib-18.17/dlib/bigint/bigint_kernel_1.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles $(CMAKE_PROGRESS_2)
+dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_1.o: /home/lethic/projects/dlib-18.17/dlib/bigint/bigint_kernel_1.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_1.o"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/bigint/bigint_kernel_1.o -c /home/odroid/Documents/dlib-18.17/dlib/bigint/bigint_kernel_1.cpp
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/bigint/bigint_kernel_1.o -c /home/lethic/projects/dlib-18.17/dlib/bigint/bigint_kernel_1.cpp
 
 dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_1.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/bigint/bigint_kernel_1.i"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odroid/Documents/dlib-18.17/dlib/bigint/bigint_kernel_1.cpp > CMakeFiles/dlib.dir/bigint/bigint_kernel_1.i
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lethic/projects/dlib-18.17/dlib/bigint/bigint_kernel_1.cpp > CMakeFiles/dlib.dir/bigint/bigint_kernel_1.i
 
 dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_1.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/bigint/bigint_kernel_1.s"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odroid/Documents/dlib-18.17/dlib/bigint/bigint_kernel_1.cpp -o CMakeFiles/dlib.dir/bigint/bigint_kernel_1.s
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lethic/projects/dlib-18.17/dlib/bigint/bigint_kernel_1.cpp -o CMakeFiles/dlib.dir/bigint/bigint_kernel_1.s
 
 dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_1.o.requires:
 .PHONY : dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_1.o.requires
@@ -99,18 +96,18 @@ dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_1.o.provides: dlib_build/CMa
 dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_1.o.provides.build: dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_1.o
 
 dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_2.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_2.o: /home/odroid/Documents/dlib-18.17/dlib/bigint/bigint_kernel_2.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles $(CMAKE_PROGRESS_3)
+dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_2.o: /home/lethic/projects/dlib-18.17/dlib/bigint/bigint_kernel_2.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_2.o"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/bigint/bigint_kernel_2.o -c /home/odroid/Documents/dlib-18.17/dlib/bigint/bigint_kernel_2.cpp
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/bigint/bigint_kernel_2.o -c /home/lethic/projects/dlib-18.17/dlib/bigint/bigint_kernel_2.cpp
 
 dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_2.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/bigint/bigint_kernel_2.i"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odroid/Documents/dlib-18.17/dlib/bigint/bigint_kernel_2.cpp > CMakeFiles/dlib.dir/bigint/bigint_kernel_2.i
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lethic/projects/dlib-18.17/dlib/bigint/bigint_kernel_2.cpp > CMakeFiles/dlib.dir/bigint/bigint_kernel_2.i
 
 dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_2.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/bigint/bigint_kernel_2.s"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odroid/Documents/dlib-18.17/dlib/bigint/bigint_kernel_2.cpp -o CMakeFiles/dlib.dir/bigint/bigint_kernel_2.s
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lethic/projects/dlib-18.17/dlib/bigint/bigint_kernel_2.cpp -o CMakeFiles/dlib.dir/bigint/bigint_kernel_2.s
 
 dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_2.o.requires:
 .PHONY : dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_2.o.requires
@@ -122,18 +119,18 @@ dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_2.o.provides: dlib_build/CMa
 dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_2.o.provides.build: dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_2.o
 
 dlib_build/CMakeFiles/dlib.dir/bit_stream/bit_stream_kernel_1.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/bit_stream/bit_stream_kernel_1.o: /home/odroid/Documents/dlib-18.17/dlib/bit_stream/bit_stream_kernel_1.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles $(CMAKE_PROGRESS_4)
+dlib_build/CMakeFiles/dlib.dir/bit_stream/bit_stream_kernel_1.o: /home/lethic/projects/dlib-18.17/dlib/bit_stream/bit_stream_kernel_1.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object dlib_build/CMakeFiles/dlib.dir/bit_stream/bit_stream_kernel_1.o"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/bit_stream/bit_stream_kernel_1.o -c /home/odroid/Documents/dlib-18.17/dlib/bit_stream/bit_stream_kernel_1.cpp
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/bit_stream/bit_stream_kernel_1.o -c /home/lethic/projects/dlib-18.17/dlib/bit_stream/bit_stream_kernel_1.cpp
 
 dlib_build/CMakeFiles/dlib.dir/bit_stream/bit_stream_kernel_1.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/bit_stream/bit_stream_kernel_1.i"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odroid/Documents/dlib-18.17/dlib/bit_stream/bit_stream_kernel_1.cpp > CMakeFiles/dlib.dir/bit_stream/bit_stream_kernel_1.i
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lethic/projects/dlib-18.17/dlib/bit_stream/bit_stream_kernel_1.cpp > CMakeFiles/dlib.dir/bit_stream/bit_stream_kernel_1.i
 
 dlib_build/CMakeFiles/dlib.dir/bit_stream/bit_stream_kernel_1.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/bit_stream/bit_stream_kernel_1.s"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odroid/Documents/dlib-18.17/dlib/bit_stream/bit_stream_kernel_1.cpp -o CMakeFiles/dlib.dir/bit_stream/bit_stream_kernel_1.s
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lethic/projects/dlib-18.17/dlib/bit_stream/bit_stream_kernel_1.cpp -o CMakeFiles/dlib.dir/bit_stream/bit_stream_kernel_1.s
 
 dlib_build/CMakeFiles/dlib.dir/bit_stream/bit_stream_kernel_1.o.requires:
 .PHONY : dlib_build/CMakeFiles/dlib.dir/bit_stream/bit_stream_kernel_1.o.requires
@@ -145,18 +142,18 @@ dlib_build/CMakeFiles/dlib.dir/bit_stream/bit_stream_kernel_1.o.provides: dlib_b
 dlib_build/CMakeFiles/dlib.dir/bit_stream/bit_stream_kernel_1.o.provides.build: dlib_build/CMakeFiles/dlib.dir/bit_stream/bit_stream_kernel_1.o
 
 dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_1.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_1.o: /home/odroid/Documents/dlib-18.17/dlib/entropy_decoder/entropy_decoder_kernel_1.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles $(CMAKE_PROGRESS_5)
+dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_1.o: /home/lethic/projects/dlib-18.17/dlib/entropy_decoder/entropy_decoder_kernel_1.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_1.o"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_1.o -c /home/odroid/Documents/dlib-18.17/dlib/entropy_decoder/entropy_decoder_kernel_1.cpp
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_1.o -c /home/lethic/projects/dlib-18.17/dlib/entropy_decoder/entropy_decoder_kernel_1.cpp
 
 dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_1.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_1.i"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odroid/Documents/dlib-18.17/dlib/entropy_decoder/entropy_decoder_kernel_1.cpp > CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_1.i
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lethic/projects/dlib-18.17/dlib/entropy_decoder/entropy_decoder_kernel_1.cpp > CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_1.i
 
 dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_1.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_1.s"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odroid/Documents/dlib-18.17/dlib/entropy_decoder/entropy_decoder_kernel_1.cpp -o CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_1.s
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lethic/projects/dlib-18.17/dlib/entropy_decoder/entropy_decoder_kernel_1.cpp -o CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_1.s
 
 dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_1.o.requires:
 .PHONY : dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_1.o.requires
@@ -168,18 +165,18 @@ dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_1.o.provid
 dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_1.o.provides.build: dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_1.o
 
 dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_2.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_2.o: /home/odroid/Documents/dlib-18.17/dlib/entropy_decoder/entropy_decoder_kernel_2.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles $(CMAKE_PROGRESS_6)
+dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_2.o: /home/lethic/projects/dlib-18.17/dlib/entropy_decoder/entropy_decoder_kernel_2.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_2.o"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_2.o -c /home/odroid/Documents/dlib-18.17/dlib/entropy_decoder/entropy_decoder_kernel_2.cpp
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_2.o -c /home/lethic/projects/dlib-18.17/dlib/entropy_decoder/entropy_decoder_kernel_2.cpp
 
 dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_2.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_2.i"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odroid/Documents/dlib-18.17/dlib/entropy_decoder/entropy_decoder_kernel_2.cpp > CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_2.i
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lethic/projects/dlib-18.17/dlib/entropy_decoder/entropy_decoder_kernel_2.cpp > CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_2.i
 
 dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_2.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_2.s"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odroid/Documents/dlib-18.17/dlib/entropy_decoder/entropy_decoder_kernel_2.cpp -o CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_2.s
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lethic/projects/dlib-18.17/dlib/entropy_decoder/entropy_decoder_kernel_2.cpp -o CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_2.s
 
 dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_2.o.requires:
 .PHONY : dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_2.o.requires
@@ -191,18 +188,18 @@ dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_2.o.provid
 dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_2.o.provides.build: dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_2.o
 
 dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_1.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_1.o: /home/odroid/Documents/dlib-18.17/dlib/entropy_encoder/entropy_encoder_kernel_1.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles $(CMAKE_PROGRESS_7)
+dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_1.o: /home/lethic/projects/dlib-18.17/dlib/entropy_encoder/entropy_encoder_kernel_1.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_1.o"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_1.o -c /home/odroid/Documents/dlib-18.17/dlib/entropy_encoder/entropy_encoder_kernel_1.cpp
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_1.o -c /home/lethic/projects/dlib-18.17/dlib/entropy_encoder/entropy_encoder_kernel_1.cpp
 
 dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_1.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_1.i"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odroid/Documents/dlib-18.17/dlib/entropy_encoder/entropy_encoder_kernel_1.cpp > CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_1.i
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lethic/projects/dlib-18.17/dlib/entropy_encoder/entropy_encoder_kernel_1.cpp > CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_1.i
 
 dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_1.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_1.s"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odroid/Documents/dlib-18.17/dlib/entropy_encoder/entropy_encoder_kernel_1.cpp -o CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_1.s
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lethic/projects/dlib-18.17/dlib/entropy_encoder/entropy_encoder_kernel_1.cpp -o CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_1.s
 
 dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_1.o.requires:
 .PHONY : dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_1.o.requires
@@ -214,18 +211,18 @@ dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_1.o.provid
 dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_1.o.provides.build: dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_1.o
 
 dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_2.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_2.o: /home/odroid/Documents/dlib-18.17/dlib/entropy_encoder/entropy_encoder_kernel_2.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles $(CMAKE_PROGRESS_8)
+dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_2.o: /home/lethic/projects/dlib-18.17/dlib/entropy_encoder/entropy_encoder_kernel_2.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_2.o"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_2.o -c /home/odroid/Documents/dlib-18.17/dlib/entropy_encoder/entropy_encoder_kernel_2.cpp
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_2.o -c /home/lethic/projects/dlib-18.17/dlib/entropy_encoder/entropy_encoder_kernel_2.cpp
 
 dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_2.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_2.i"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odroid/Documents/dlib-18.17/dlib/entropy_encoder/entropy_encoder_kernel_2.cpp > CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_2.i
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lethic/projects/dlib-18.17/dlib/entropy_encoder/entropy_encoder_kernel_2.cpp > CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_2.i
 
 dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_2.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_2.s"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odroid/Documents/dlib-18.17/dlib/entropy_encoder/entropy_encoder_kernel_2.cpp -o CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_2.s
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lethic/projects/dlib-18.17/dlib/entropy_encoder/entropy_encoder_kernel_2.cpp -o CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_2.s
 
 dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_2.o.requires:
 .PHONY : dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_2.o.requires
@@ -237,18 +234,18 @@ dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_2.o.provid
 dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_2.o.provides.build: dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_2.o
 
 dlib_build/CMakeFiles/dlib.dir/md5/md5_kernel_1.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/md5/md5_kernel_1.o: /home/odroid/Documents/dlib-18.17/dlib/md5/md5_kernel_1.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles $(CMAKE_PROGRESS_9)
+dlib_build/CMakeFiles/dlib.dir/md5/md5_kernel_1.o: /home/lethic/projects/dlib-18.17/dlib/md5/md5_kernel_1.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object dlib_build/CMakeFiles/dlib.dir/md5/md5_kernel_1.o"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/md5/md5_kernel_1.o -c /home/odroid/Documents/dlib-18.17/dlib/md5/md5_kernel_1.cpp
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/md5/md5_kernel_1.o -c /home/lethic/projects/dlib-18.17/dlib/md5/md5_kernel_1.cpp
 
 dlib_build/CMakeFiles/dlib.dir/md5/md5_kernel_1.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/md5/md5_kernel_1.i"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odroid/Documents/dlib-18.17/dlib/md5/md5_kernel_1.cpp > CMakeFiles/dlib.dir/md5/md5_kernel_1.i
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lethic/projects/dlib-18.17/dlib/md5/md5_kernel_1.cpp > CMakeFiles/dlib.dir/md5/md5_kernel_1.i
 
 dlib_build/CMakeFiles/dlib.dir/md5/md5_kernel_1.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/md5/md5_kernel_1.s"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odroid/Documents/dlib-18.17/dlib/md5/md5_kernel_1.cpp -o CMakeFiles/dlib.dir/md5/md5_kernel_1.s
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lethic/projects/dlib-18.17/dlib/md5/md5_kernel_1.cpp -o CMakeFiles/dlib.dir/md5/md5_kernel_1.s
 
 dlib_build/CMakeFiles/dlib.dir/md5/md5_kernel_1.o.requires:
 .PHONY : dlib_build/CMakeFiles/dlib.dir/md5/md5_kernel_1.o.requires
@@ -260,18 +257,18 @@ dlib_build/CMakeFiles/dlib.dir/md5/md5_kernel_1.o.provides: dlib_build/CMakeFile
 dlib_build/CMakeFiles/dlib.dir/md5/md5_kernel_1.o.provides.build: dlib_build/CMakeFiles/dlib.dir/md5/md5_kernel_1.o
 
 dlib_build/CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.o: /home/odroid/Documents/dlib-18.17/dlib/tokenizer/tokenizer_kernel_1.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles $(CMAKE_PROGRESS_10)
+dlib_build/CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.o: /home/lethic/projects/dlib-18.17/dlib/tokenizer/tokenizer_kernel_1.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object dlib_build/CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.o"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.o -c /home/odroid/Documents/dlib-18.17/dlib/tokenizer/tokenizer_kernel_1.cpp
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.o -c /home/lethic/projects/dlib-18.17/dlib/tokenizer/tokenizer_kernel_1.cpp
 
 dlib_build/CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.i"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odroid/Documents/dlib-18.17/dlib/tokenizer/tokenizer_kernel_1.cpp > CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.i
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lethic/projects/dlib-18.17/dlib/tokenizer/tokenizer_kernel_1.cpp > CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.i
 
 dlib_build/CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.s"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odroid/Documents/dlib-18.17/dlib/tokenizer/tokenizer_kernel_1.cpp -o CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.s
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lethic/projects/dlib-18.17/dlib/tokenizer/tokenizer_kernel_1.cpp -o CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.s
 
 dlib_build/CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.o.requires:
 .PHONY : dlib_build/CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.o.requires
@@ -283,18 +280,18 @@ dlib_build/CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.o.provides: dlib_bui
 dlib_build/CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.o.provides.build: dlib_build/CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.o
 
 dlib_build/CMakeFiles/dlib.dir/unicode/unicode.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/unicode/unicode.o: /home/odroid/Documents/dlib-18.17/dlib/unicode/unicode.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles $(CMAKE_PROGRESS_11)
+dlib_build/CMakeFiles/dlib.dir/unicode/unicode.o: /home/lethic/projects/dlib-18.17/dlib/unicode/unicode.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object dlib_build/CMakeFiles/dlib.dir/unicode/unicode.o"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/unicode/unicode.o -c /home/odroid/Documents/dlib-18.17/dlib/unicode/unicode.cpp
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/unicode/unicode.o -c /home/lethic/projects/dlib-18.17/dlib/unicode/unicode.cpp
 
 dlib_build/CMakeFiles/dlib.dir/unicode/unicode.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/unicode/unicode.i"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odroid/Documents/dlib-18.17/dlib/unicode/unicode.cpp > CMakeFiles/dlib.dir/unicode/unicode.i
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lethic/projects/dlib-18.17/dlib/unicode/unicode.cpp > CMakeFiles/dlib.dir/unicode/unicode.i
 
 dlib_build/CMakeFiles/dlib.dir/unicode/unicode.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/unicode/unicode.s"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odroid/Documents/dlib-18.17/dlib/unicode/unicode.cpp -o CMakeFiles/dlib.dir/unicode/unicode.s
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lethic/projects/dlib-18.17/dlib/unicode/unicode.cpp -o CMakeFiles/dlib.dir/unicode/unicode.s
 
 dlib_build/CMakeFiles/dlib.dir/unicode/unicode.o.requires:
 .PHONY : dlib_build/CMakeFiles/dlib.dir/unicode/unicode.o.requires
@@ -306,18 +303,18 @@ dlib_build/CMakeFiles/dlib.dir/unicode/unicode.o.provides: dlib_build/CMakeFiles
 dlib_build/CMakeFiles/dlib.dir/unicode/unicode.o.provides.build: dlib_build/CMakeFiles/dlib.dir/unicode/unicode.o
 
 dlib_build/CMakeFiles/dlib.dir/data_io/image_dataset_metadata.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/data_io/image_dataset_metadata.o: /home/odroid/Documents/dlib-18.17/dlib/data_io/image_dataset_metadata.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles $(CMAKE_PROGRESS_12)
+dlib_build/CMakeFiles/dlib.dir/data_io/image_dataset_metadata.o: /home/lethic/projects/dlib-18.17/dlib/data_io/image_dataset_metadata.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object dlib_build/CMakeFiles/dlib.dir/data_io/image_dataset_metadata.o"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/data_io/image_dataset_metadata.o -c /home/odroid/Documents/dlib-18.17/dlib/data_io/image_dataset_metadata.cpp
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/data_io/image_dataset_metadata.o -c /home/lethic/projects/dlib-18.17/dlib/data_io/image_dataset_metadata.cpp
 
 dlib_build/CMakeFiles/dlib.dir/data_io/image_dataset_metadata.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/data_io/image_dataset_metadata.i"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odroid/Documents/dlib-18.17/dlib/data_io/image_dataset_metadata.cpp > CMakeFiles/dlib.dir/data_io/image_dataset_metadata.i
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lethic/projects/dlib-18.17/dlib/data_io/image_dataset_metadata.cpp > CMakeFiles/dlib.dir/data_io/image_dataset_metadata.i
 
 dlib_build/CMakeFiles/dlib.dir/data_io/image_dataset_metadata.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/data_io/image_dataset_metadata.s"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odroid/Documents/dlib-18.17/dlib/data_io/image_dataset_metadata.cpp -o CMakeFiles/dlib.dir/data_io/image_dataset_metadata.s
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lethic/projects/dlib-18.17/dlib/data_io/image_dataset_metadata.cpp -o CMakeFiles/dlib.dir/data_io/image_dataset_metadata.s
 
 dlib_build/CMakeFiles/dlib.dir/data_io/image_dataset_metadata.o.requires:
 .PHONY : dlib_build/CMakeFiles/dlib.dir/data_io/image_dataset_metadata.o.requires
@@ -329,18 +326,18 @@ dlib_build/CMakeFiles/dlib.dir/data_io/image_dataset_metadata.o.provides: dlib_b
 dlib_build/CMakeFiles/dlib.dir/data_io/image_dataset_metadata.o.provides.build: dlib_build/CMakeFiles/dlib.dir/data_io/image_dataset_metadata.o
 
 dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_1.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_1.o: /home/odroid/Documents/dlib-18.17/dlib/sockets/sockets_kernel_1.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles $(CMAKE_PROGRESS_13)
+dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_1.o: /home/lethic/projects/dlib-18.17/dlib/sockets/sockets_kernel_1.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_1.o"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/sockets/sockets_kernel_1.o -c /home/odroid/Documents/dlib-18.17/dlib/sockets/sockets_kernel_1.cpp
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/sockets/sockets_kernel_1.o -c /home/lethic/projects/dlib-18.17/dlib/sockets/sockets_kernel_1.cpp
 
 dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_1.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/sockets/sockets_kernel_1.i"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odroid/Documents/dlib-18.17/dlib/sockets/sockets_kernel_1.cpp > CMakeFiles/dlib.dir/sockets/sockets_kernel_1.i
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lethic/projects/dlib-18.17/dlib/sockets/sockets_kernel_1.cpp > CMakeFiles/dlib.dir/sockets/sockets_kernel_1.i
 
 dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_1.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/sockets/sockets_kernel_1.s"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odroid/Documents/dlib-18.17/dlib/sockets/sockets_kernel_1.cpp -o CMakeFiles/dlib.dir/sockets/sockets_kernel_1.s
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lethic/projects/dlib-18.17/dlib/sockets/sockets_kernel_1.cpp -o CMakeFiles/dlib.dir/sockets/sockets_kernel_1.s
 
 dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_1.o.requires:
 .PHONY : dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_1.o.requires
@@ -352,18 +349,18 @@ dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_1.o.provides: dlib_build/C
 dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_1.o.provides.build: dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_1.o
 
 dlib_build/CMakeFiles/dlib.dir/bsp/bsp.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/bsp/bsp.o: /home/odroid/Documents/dlib-18.17/dlib/bsp/bsp.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles $(CMAKE_PROGRESS_14)
+dlib_build/CMakeFiles/dlib.dir/bsp/bsp.o: /home/lethic/projects/dlib-18.17/dlib/bsp/bsp.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object dlib_build/CMakeFiles/dlib.dir/bsp/bsp.o"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/bsp/bsp.o -c /home/odroid/Documents/dlib-18.17/dlib/bsp/bsp.cpp
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/bsp/bsp.o -c /home/lethic/projects/dlib-18.17/dlib/bsp/bsp.cpp
 
 dlib_build/CMakeFiles/dlib.dir/bsp/bsp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/bsp/bsp.i"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odroid/Documents/dlib-18.17/dlib/bsp/bsp.cpp > CMakeFiles/dlib.dir/bsp/bsp.i
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lethic/projects/dlib-18.17/dlib/bsp/bsp.cpp > CMakeFiles/dlib.dir/bsp/bsp.i
 
 dlib_build/CMakeFiles/dlib.dir/bsp/bsp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/bsp/bsp.s"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odroid/Documents/dlib-18.17/dlib/bsp/bsp.cpp -o CMakeFiles/dlib.dir/bsp/bsp.s
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lethic/projects/dlib-18.17/dlib/bsp/bsp.cpp -o CMakeFiles/dlib.dir/bsp/bsp.s
 
 dlib_build/CMakeFiles/dlib.dir/bsp/bsp.o.requires:
 .PHONY : dlib_build/CMakeFiles/dlib.dir/bsp/bsp.o.requires
@@ -375,18 +372,18 @@ dlib_build/CMakeFiles/dlib.dir/bsp/bsp.o.provides: dlib_build/CMakeFiles/dlib.di
 dlib_build/CMakeFiles/dlib.dir/bsp/bsp.o.provides.build: dlib_build/CMakeFiles/dlib.dir/bsp/bsp.o
 
 dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.o: /home/odroid/Documents/dlib-18.17/dlib/dir_nav/dir_nav_kernel_1.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles $(CMAKE_PROGRESS_15)
+dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.o: /home/lethic/projects/dlib-18.17/dlib/dir_nav/dir_nav_kernel_1.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.o"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.o -c /home/odroid/Documents/dlib-18.17/dlib/dir_nav/dir_nav_kernel_1.cpp
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.o -c /home/lethic/projects/dlib-18.17/dlib/dir_nav/dir_nav_kernel_1.cpp
 
 dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.i"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odroid/Documents/dlib-18.17/dlib/dir_nav/dir_nav_kernel_1.cpp > CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.i
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lethic/projects/dlib-18.17/dlib/dir_nav/dir_nav_kernel_1.cpp > CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.i
 
 dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.s"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odroid/Documents/dlib-18.17/dlib/dir_nav/dir_nav_kernel_1.cpp -o CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.s
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lethic/projects/dlib-18.17/dlib/dir_nav/dir_nav_kernel_1.cpp -o CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.s
 
 dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.o.requires:
 .PHONY : dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.o.requires
@@ -398,18 +395,18 @@ dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.o.provides: dlib_build/C
 dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.o.provides.build: dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.o
 
 dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.o: /home/odroid/Documents/dlib-18.17/dlib/dir_nav/dir_nav_kernel_2.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles $(CMAKE_PROGRESS_16)
+dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.o: /home/lethic/projects/dlib-18.17/dlib/dir_nav/dir_nav_kernel_2.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.o"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.o -c /home/odroid/Documents/dlib-18.17/dlib/dir_nav/dir_nav_kernel_2.cpp
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.o -c /home/lethic/projects/dlib-18.17/dlib/dir_nav/dir_nav_kernel_2.cpp
 
 dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.i"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odroid/Documents/dlib-18.17/dlib/dir_nav/dir_nav_kernel_2.cpp > CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.i
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lethic/projects/dlib-18.17/dlib/dir_nav/dir_nav_kernel_2.cpp > CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.i
 
 dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.s"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odroid/Documents/dlib-18.17/dlib/dir_nav/dir_nav_kernel_2.cpp -o CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.s
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lethic/projects/dlib-18.17/dlib/dir_nav/dir_nav_kernel_2.cpp -o CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.s
 
 dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.o.requires:
 .PHONY : dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.o.requires
@@ -421,18 +418,18 @@ dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.o.provides: dlib_build/C
 dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.o.provides.build: dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.o
 
 dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.o: /home/odroid/Documents/dlib-18.17/dlib/dir_nav/dir_nav_extensions.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles $(CMAKE_PROGRESS_17)
+dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.o: /home/lethic/projects/dlib-18.17/dlib/dir_nav/dir_nav_extensions.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.o"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.o -c /home/odroid/Documents/dlib-18.17/dlib/dir_nav/dir_nav_extensions.cpp
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.o -c /home/lethic/projects/dlib-18.17/dlib/dir_nav/dir_nav_extensions.cpp
 
 dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.i"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odroid/Documents/dlib-18.17/dlib/dir_nav/dir_nav_extensions.cpp > CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.i
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lethic/projects/dlib-18.17/dlib/dir_nav/dir_nav_extensions.cpp > CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.i
 
 dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.s"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odroid/Documents/dlib-18.17/dlib/dir_nav/dir_nav_extensions.cpp -o CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.s
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lethic/projects/dlib-18.17/dlib/dir_nav/dir_nav_extensions.cpp -o CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.s
 
 dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.o.requires:
 .PHONY : dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.o.requires
@@ -444,18 +441,18 @@ dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.o.provides: dlib_build
 dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.o.provides.build: dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.o
 
 dlib_build/CMakeFiles/dlib.dir/linker/linker_kernel_1.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/linker/linker_kernel_1.o: /home/odroid/Documents/dlib-18.17/dlib/linker/linker_kernel_1.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles $(CMAKE_PROGRESS_18)
+dlib_build/CMakeFiles/dlib.dir/linker/linker_kernel_1.o: /home/lethic/projects/dlib-18.17/dlib/linker/linker_kernel_1.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object dlib_build/CMakeFiles/dlib.dir/linker/linker_kernel_1.o"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/linker/linker_kernel_1.o -c /home/odroid/Documents/dlib-18.17/dlib/linker/linker_kernel_1.cpp
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/linker/linker_kernel_1.o -c /home/lethic/projects/dlib-18.17/dlib/linker/linker_kernel_1.cpp
 
 dlib_build/CMakeFiles/dlib.dir/linker/linker_kernel_1.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/linker/linker_kernel_1.i"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odroid/Documents/dlib-18.17/dlib/linker/linker_kernel_1.cpp > CMakeFiles/dlib.dir/linker/linker_kernel_1.i
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lethic/projects/dlib-18.17/dlib/linker/linker_kernel_1.cpp > CMakeFiles/dlib.dir/linker/linker_kernel_1.i
 
 dlib_build/CMakeFiles/dlib.dir/linker/linker_kernel_1.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/linker/linker_kernel_1.s"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odroid/Documents/dlib-18.17/dlib/linker/linker_kernel_1.cpp -o CMakeFiles/dlib.dir/linker/linker_kernel_1.s
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lethic/projects/dlib-18.17/dlib/linker/linker_kernel_1.cpp -o CMakeFiles/dlib.dir/linker/linker_kernel_1.s
 
 dlib_build/CMakeFiles/dlib.dir/linker/linker_kernel_1.o.requires:
 .PHONY : dlib_build/CMakeFiles/dlib.dir/linker/linker_kernel_1.o.requires
@@ -467,18 +464,18 @@ dlib_build/CMakeFiles/dlib.dir/linker/linker_kernel_1.o.provides: dlib_build/CMa
 dlib_build/CMakeFiles/dlib.dir/linker/linker_kernel_1.o.provides.build: dlib_build/CMakeFiles/dlib.dir/linker/linker_kernel_1.o
 
 dlib_build/CMakeFiles/dlib.dir/logger/extra_logger_headers.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/logger/extra_logger_headers.o: /home/odroid/Documents/dlib-18.17/dlib/logger/extra_logger_headers.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles $(CMAKE_PROGRESS_19)
+dlib_build/CMakeFiles/dlib.dir/logger/extra_logger_headers.o: /home/lethic/projects/dlib-18.17/dlib/logger/extra_logger_headers.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object dlib_build/CMakeFiles/dlib.dir/logger/extra_logger_headers.o"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/logger/extra_logger_headers.o -c /home/odroid/Documents/dlib-18.17/dlib/logger/extra_logger_headers.cpp
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/logger/extra_logger_headers.o -c /home/lethic/projects/dlib-18.17/dlib/logger/extra_logger_headers.cpp
 
 dlib_build/CMakeFiles/dlib.dir/logger/extra_logger_headers.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/logger/extra_logger_headers.i"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odroid/Documents/dlib-18.17/dlib/logger/extra_logger_headers.cpp > CMakeFiles/dlib.dir/logger/extra_logger_headers.i
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lethic/projects/dlib-18.17/dlib/logger/extra_logger_headers.cpp > CMakeFiles/dlib.dir/logger/extra_logger_headers.i
 
 dlib_build/CMakeFiles/dlib.dir/logger/extra_logger_headers.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/logger/extra_logger_headers.s"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odroid/Documents/dlib-18.17/dlib/logger/extra_logger_headers.cpp -o CMakeFiles/dlib.dir/logger/extra_logger_headers.s
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lethic/projects/dlib-18.17/dlib/logger/extra_logger_headers.cpp -o CMakeFiles/dlib.dir/logger/extra_logger_headers.s
 
 dlib_build/CMakeFiles/dlib.dir/logger/extra_logger_headers.o.requires:
 .PHONY : dlib_build/CMakeFiles/dlib.dir/logger/extra_logger_headers.o.requires
@@ -490,18 +487,18 @@ dlib_build/CMakeFiles/dlib.dir/logger/extra_logger_headers.o.provides: dlib_buil
 dlib_build/CMakeFiles/dlib.dir/logger/extra_logger_headers.o.provides.build: dlib_build/CMakeFiles/dlib.dir/logger/extra_logger_headers.o
 
 dlib_build/CMakeFiles/dlib.dir/logger/logger_kernel_1.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/logger/logger_kernel_1.o: /home/odroid/Documents/dlib-18.17/dlib/logger/logger_kernel_1.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles $(CMAKE_PROGRESS_20)
+dlib_build/CMakeFiles/dlib.dir/logger/logger_kernel_1.o: /home/lethic/projects/dlib-18.17/dlib/logger/logger_kernel_1.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles $(CMAKE_PROGRESS_20)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object dlib_build/CMakeFiles/dlib.dir/logger/logger_kernel_1.o"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/logger/logger_kernel_1.o -c /home/odroid/Documents/dlib-18.17/dlib/logger/logger_kernel_1.cpp
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/logger/logger_kernel_1.o -c /home/lethic/projects/dlib-18.17/dlib/logger/logger_kernel_1.cpp
 
 dlib_build/CMakeFiles/dlib.dir/logger/logger_kernel_1.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/logger/logger_kernel_1.i"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odroid/Documents/dlib-18.17/dlib/logger/logger_kernel_1.cpp > CMakeFiles/dlib.dir/logger/logger_kernel_1.i
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lethic/projects/dlib-18.17/dlib/logger/logger_kernel_1.cpp > CMakeFiles/dlib.dir/logger/logger_kernel_1.i
 
 dlib_build/CMakeFiles/dlib.dir/logger/logger_kernel_1.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/logger/logger_kernel_1.s"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odroid/Documents/dlib-18.17/dlib/logger/logger_kernel_1.cpp -o CMakeFiles/dlib.dir/logger/logger_kernel_1.s
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lethic/projects/dlib-18.17/dlib/logger/logger_kernel_1.cpp -o CMakeFiles/dlib.dir/logger/logger_kernel_1.s
 
 dlib_build/CMakeFiles/dlib.dir/logger/logger_kernel_1.o.requires:
 .PHONY : dlib_build/CMakeFiles/dlib.dir/logger/logger_kernel_1.o.requires
@@ -513,18 +510,18 @@ dlib_build/CMakeFiles/dlib.dir/logger/logger_kernel_1.o.provides: dlib_build/CMa
 dlib_build/CMakeFiles/dlib.dir/logger/logger_kernel_1.o.provides.build: dlib_build/CMakeFiles/dlib.dir/logger/logger_kernel_1.o
 
 dlib_build/CMakeFiles/dlib.dir/logger/logger_config_file.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/logger/logger_config_file.o: /home/odroid/Documents/dlib-18.17/dlib/logger/logger_config_file.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles $(CMAKE_PROGRESS_21)
+dlib_build/CMakeFiles/dlib.dir/logger/logger_config_file.o: /home/lethic/projects/dlib-18.17/dlib/logger/logger_config_file.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles $(CMAKE_PROGRESS_21)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object dlib_build/CMakeFiles/dlib.dir/logger/logger_config_file.o"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/logger/logger_config_file.o -c /home/odroid/Documents/dlib-18.17/dlib/logger/logger_config_file.cpp
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/logger/logger_config_file.o -c /home/lethic/projects/dlib-18.17/dlib/logger/logger_config_file.cpp
 
 dlib_build/CMakeFiles/dlib.dir/logger/logger_config_file.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/logger/logger_config_file.i"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odroid/Documents/dlib-18.17/dlib/logger/logger_config_file.cpp > CMakeFiles/dlib.dir/logger/logger_config_file.i
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lethic/projects/dlib-18.17/dlib/logger/logger_config_file.cpp > CMakeFiles/dlib.dir/logger/logger_config_file.i
 
 dlib_build/CMakeFiles/dlib.dir/logger/logger_config_file.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/logger/logger_config_file.s"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odroid/Documents/dlib-18.17/dlib/logger/logger_config_file.cpp -o CMakeFiles/dlib.dir/logger/logger_config_file.s
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lethic/projects/dlib-18.17/dlib/logger/logger_config_file.cpp -o CMakeFiles/dlib.dir/logger/logger_config_file.s
 
 dlib_build/CMakeFiles/dlib.dir/logger/logger_config_file.o.requires:
 .PHONY : dlib_build/CMakeFiles/dlib.dir/logger/logger_config_file.o.requires
@@ -536,18 +533,18 @@ dlib_build/CMakeFiles/dlib.dir/logger/logger_config_file.o.provides: dlib_build/
 dlib_build/CMakeFiles/dlib.dir/logger/logger_config_file.o.provides.build: dlib_build/CMakeFiles/dlib.dir/logger/logger_config_file.o
 
 dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.o: /home/odroid/Documents/dlib-18.17/dlib/misc_api/misc_api_kernel_1.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles $(CMAKE_PROGRESS_22)
+dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.o: /home/lethic/projects/dlib-18.17/dlib/misc_api/misc_api_kernel_1.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles $(CMAKE_PROGRESS_22)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.o"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.o -c /home/odroid/Documents/dlib-18.17/dlib/misc_api/misc_api_kernel_1.cpp
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.o -c /home/lethic/projects/dlib-18.17/dlib/misc_api/misc_api_kernel_1.cpp
 
 dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.i"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odroid/Documents/dlib-18.17/dlib/misc_api/misc_api_kernel_1.cpp > CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.i
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lethic/projects/dlib-18.17/dlib/misc_api/misc_api_kernel_1.cpp > CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.i
 
 dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.s"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odroid/Documents/dlib-18.17/dlib/misc_api/misc_api_kernel_1.cpp -o CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.s
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lethic/projects/dlib-18.17/dlib/misc_api/misc_api_kernel_1.cpp -o CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.s
 
 dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.o.requires:
 .PHONY : dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.o.requires
@@ -559,18 +556,18 @@ dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.o.provides: dlib_build
 dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.o.provides.build: dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.o
 
 dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.o: /home/odroid/Documents/dlib-18.17/dlib/misc_api/misc_api_kernel_2.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles $(CMAKE_PROGRESS_23)
+dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.o: /home/lethic/projects/dlib-18.17/dlib/misc_api/misc_api_kernel_2.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles $(CMAKE_PROGRESS_23)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.o"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.o -c /home/odroid/Documents/dlib-18.17/dlib/misc_api/misc_api_kernel_2.cpp
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.o -c /home/lethic/projects/dlib-18.17/dlib/misc_api/misc_api_kernel_2.cpp
 
 dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.i"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odroid/Documents/dlib-18.17/dlib/misc_api/misc_api_kernel_2.cpp > CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.i
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lethic/projects/dlib-18.17/dlib/misc_api/misc_api_kernel_2.cpp > CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.i
 
 dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.s"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odroid/Documents/dlib-18.17/dlib/misc_api/misc_api_kernel_2.cpp -o CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.s
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lethic/projects/dlib-18.17/dlib/misc_api/misc_api_kernel_2.cpp -o CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.s
 
 dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.o.requires:
 .PHONY : dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.o.requires
@@ -582,18 +579,18 @@ dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.o.provides: dlib_build
 dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.o.provides.build: dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.o
 
 dlib_build/CMakeFiles/dlib.dir/sockets/sockets_extensions.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/sockets/sockets_extensions.o: /home/odroid/Documents/dlib-18.17/dlib/sockets/sockets_extensions.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles $(CMAKE_PROGRESS_24)
+dlib_build/CMakeFiles/dlib.dir/sockets/sockets_extensions.o: /home/lethic/projects/dlib-18.17/dlib/sockets/sockets_extensions.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles $(CMAKE_PROGRESS_24)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object dlib_build/CMakeFiles/dlib.dir/sockets/sockets_extensions.o"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/sockets/sockets_extensions.o -c /home/odroid/Documents/dlib-18.17/dlib/sockets/sockets_extensions.cpp
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/sockets/sockets_extensions.o -c /home/lethic/projects/dlib-18.17/dlib/sockets/sockets_extensions.cpp
 
 dlib_build/CMakeFiles/dlib.dir/sockets/sockets_extensions.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/sockets/sockets_extensions.i"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odroid/Documents/dlib-18.17/dlib/sockets/sockets_extensions.cpp > CMakeFiles/dlib.dir/sockets/sockets_extensions.i
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lethic/projects/dlib-18.17/dlib/sockets/sockets_extensions.cpp > CMakeFiles/dlib.dir/sockets/sockets_extensions.i
 
 dlib_build/CMakeFiles/dlib.dir/sockets/sockets_extensions.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/sockets/sockets_extensions.s"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odroid/Documents/dlib-18.17/dlib/sockets/sockets_extensions.cpp -o CMakeFiles/dlib.dir/sockets/sockets_extensions.s
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lethic/projects/dlib-18.17/dlib/sockets/sockets_extensions.cpp -o CMakeFiles/dlib.dir/sockets/sockets_extensions.s
 
 dlib_build/CMakeFiles/dlib.dir/sockets/sockets_extensions.o.requires:
 .PHONY : dlib_build/CMakeFiles/dlib.dir/sockets/sockets_extensions.o.requires
@@ -605,18 +602,18 @@ dlib_build/CMakeFiles/dlib.dir/sockets/sockets_extensions.o.provides: dlib_build
 dlib_build/CMakeFiles/dlib.dir/sockets/sockets_extensions.o.provides.build: dlib_build/CMakeFiles/dlib.dir/sockets/sockets_extensions.o
 
 dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_2.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_2.o: /home/odroid/Documents/dlib-18.17/dlib/sockets/sockets_kernel_2.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles $(CMAKE_PROGRESS_25)
+dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_2.o: /home/lethic/projects/dlib-18.17/dlib/sockets/sockets_kernel_2.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles $(CMAKE_PROGRESS_25)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_2.o"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/sockets/sockets_kernel_2.o -c /home/odroid/Documents/dlib-18.17/dlib/sockets/sockets_kernel_2.cpp
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/sockets/sockets_kernel_2.o -c /home/lethic/projects/dlib-18.17/dlib/sockets/sockets_kernel_2.cpp
 
 dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_2.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/sockets/sockets_kernel_2.i"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odroid/Documents/dlib-18.17/dlib/sockets/sockets_kernel_2.cpp > CMakeFiles/dlib.dir/sockets/sockets_kernel_2.i
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lethic/projects/dlib-18.17/dlib/sockets/sockets_kernel_2.cpp > CMakeFiles/dlib.dir/sockets/sockets_kernel_2.i
 
 dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_2.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/sockets/sockets_kernel_2.s"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odroid/Documents/dlib-18.17/dlib/sockets/sockets_kernel_2.cpp -o CMakeFiles/dlib.dir/sockets/sockets_kernel_2.s
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lethic/projects/dlib-18.17/dlib/sockets/sockets_kernel_2.cpp -o CMakeFiles/dlib.dir/sockets/sockets_kernel_2.s
 
 dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_2.o.requires:
 .PHONY : dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_2.o.requires
@@ -628,18 +625,18 @@ dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_2.o.provides: dlib_build/C
 dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_2.o.provides.build: dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_2.o
 
 dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.o: /home/odroid/Documents/dlib-18.17/dlib/sockstreambuf/sockstreambuf.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles $(CMAKE_PROGRESS_26)
+dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.o: /home/lethic/projects/dlib-18.17/dlib/sockstreambuf/sockstreambuf.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles $(CMAKE_PROGRESS_26)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.o"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.o -c /home/odroid/Documents/dlib-18.17/dlib/sockstreambuf/sockstreambuf.cpp
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.o -c /home/lethic/projects/dlib-18.17/dlib/sockstreambuf/sockstreambuf.cpp
 
 dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.i"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odroid/Documents/dlib-18.17/dlib/sockstreambuf/sockstreambuf.cpp > CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.i
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lethic/projects/dlib-18.17/dlib/sockstreambuf/sockstreambuf.cpp > CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.i
 
 dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.s"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odroid/Documents/dlib-18.17/dlib/sockstreambuf/sockstreambuf.cpp -o CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.s
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lethic/projects/dlib-18.17/dlib/sockstreambuf/sockstreambuf.cpp -o CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.s
 
 dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.o.requires:
 .PHONY : dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.o.requires
@@ -651,18 +648,18 @@ dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.o.provides: dlib_buil
 dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.o.provides.build: dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.o
 
 dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.o: /home/odroid/Documents/dlib-18.17/dlib/sockstreambuf/sockstreambuf_unbuffered.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles $(CMAKE_PROGRESS_27)
+dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.o: /home/lethic/projects/dlib-18.17/dlib/sockstreambuf/sockstreambuf_unbuffered.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles $(CMAKE_PROGRESS_27)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.o"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.o -c /home/odroid/Documents/dlib-18.17/dlib/sockstreambuf/sockstreambuf_unbuffered.cpp
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.o -c /home/lethic/projects/dlib-18.17/dlib/sockstreambuf/sockstreambuf_unbuffered.cpp
 
 dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.i"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odroid/Documents/dlib-18.17/dlib/sockstreambuf/sockstreambuf_unbuffered.cpp > CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.i
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lethic/projects/dlib-18.17/dlib/sockstreambuf/sockstreambuf_unbuffered.cpp > CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.i
 
 dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.s"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odroid/Documents/dlib-18.17/dlib/sockstreambuf/sockstreambuf_unbuffered.cpp -o CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.s
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lethic/projects/dlib-18.17/dlib/sockstreambuf/sockstreambuf_unbuffered.cpp -o CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.s
 
 dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.o.requires:
 .PHONY : dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.o.requires
@@ -674,18 +671,18 @@ dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.o.provides
 dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.o.provides.build: dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.o
 
 dlib_build/CMakeFiles/dlib.dir/server/server_kernel.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/server/server_kernel.o: /home/odroid/Documents/dlib-18.17/dlib/server/server_kernel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles $(CMAKE_PROGRESS_28)
+dlib_build/CMakeFiles/dlib.dir/server/server_kernel.o: /home/lethic/projects/dlib-18.17/dlib/server/server_kernel.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles $(CMAKE_PROGRESS_28)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object dlib_build/CMakeFiles/dlib.dir/server/server_kernel.o"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/server/server_kernel.o -c /home/odroid/Documents/dlib-18.17/dlib/server/server_kernel.cpp
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/server/server_kernel.o -c /home/lethic/projects/dlib-18.17/dlib/server/server_kernel.cpp
 
 dlib_build/CMakeFiles/dlib.dir/server/server_kernel.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/server/server_kernel.i"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odroid/Documents/dlib-18.17/dlib/server/server_kernel.cpp > CMakeFiles/dlib.dir/server/server_kernel.i
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lethic/projects/dlib-18.17/dlib/server/server_kernel.cpp > CMakeFiles/dlib.dir/server/server_kernel.i
 
 dlib_build/CMakeFiles/dlib.dir/server/server_kernel.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/server/server_kernel.s"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odroid/Documents/dlib-18.17/dlib/server/server_kernel.cpp -o CMakeFiles/dlib.dir/server/server_kernel.s
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lethic/projects/dlib-18.17/dlib/server/server_kernel.cpp -o CMakeFiles/dlib.dir/server/server_kernel.s
 
 dlib_build/CMakeFiles/dlib.dir/server/server_kernel.o.requires:
 .PHONY : dlib_build/CMakeFiles/dlib.dir/server/server_kernel.o.requires
@@ -697,18 +694,18 @@ dlib_build/CMakeFiles/dlib.dir/server/server_kernel.o.provides: dlib_build/CMake
 dlib_build/CMakeFiles/dlib.dir/server/server_kernel.o.provides.build: dlib_build/CMakeFiles/dlib.dir/server/server_kernel.o
 
 dlib_build/CMakeFiles/dlib.dir/server/server_iostream.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/server/server_iostream.o: /home/odroid/Documents/dlib-18.17/dlib/server/server_iostream.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles $(CMAKE_PROGRESS_29)
+dlib_build/CMakeFiles/dlib.dir/server/server_iostream.o: /home/lethic/projects/dlib-18.17/dlib/server/server_iostream.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles $(CMAKE_PROGRESS_29)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object dlib_build/CMakeFiles/dlib.dir/server/server_iostream.o"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/server/server_iostream.o -c /home/odroid/Documents/dlib-18.17/dlib/server/server_iostream.cpp
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/server/server_iostream.o -c /home/lethic/projects/dlib-18.17/dlib/server/server_iostream.cpp
 
 dlib_build/CMakeFiles/dlib.dir/server/server_iostream.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/server/server_iostream.i"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odroid/Documents/dlib-18.17/dlib/server/server_iostream.cpp > CMakeFiles/dlib.dir/server/server_iostream.i
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lethic/projects/dlib-18.17/dlib/server/server_iostream.cpp > CMakeFiles/dlib.dir/server/server_iostream.i
 
 dlib_build/CMakeFiles/dlib.dir/server/server_iostream.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/server/server_iostream.s"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odroid/Documents/dlib-18.17/dlib/server/server_iostream.cpp -o CMakeFiles/dlib.dir/server/server_iostream.s
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lethic/projects/dlib-18.17/dlib/server/server_iostream.cpp -o CMakeFiles/dlib.dir/server/server_iostream.s
 
 dlib_build/CMakeFiles/dlib.dir/server/server_iostream.o.requires:
 .PHONY : dlib_build/CMakeFiles/dlib.dir/server/server_iostream.o.requires
@@ -720,18 +717,18 @@ dlib_build/CMakeFiles/dlib.dir/server/server_iostream.o.provides: dlib_build/CMa
 dlib_build/CMakeFiles/dlib.dir/server/server_iostream.o.provides.build: dlib_build/CMakeFiles/dlib.dir/server/server_iostream.o
 
 dlib_build/CMakeFiles/dlib.dir/server/server_http.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/server/server_http.o: /home/odroid/Documents/dlib-18.17/dlib/server/server_http.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles $(CMAKE_PROGRESS_30)
+dlib_build/CMakeFiles/dlib.dir/server/server_http.o: /home/lethic/projects/dlib-18.17/dlib/server/server_http.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles $(CMAKE_PROGRESS_30)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object dlib_build/CMakeFiles/dlib.dir/server/server_http.o"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/server/server_http.o -c /home/odroid/Documents/dlib-18.17/dlib/server/server_http.cpp
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/server/server_http.o -c /home/lethic/projects/dlib-18.17/dlib/server/server_http.cpp
 
 dlib_build/CMakeFiles/dlib.dir/server/server_http.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/server/server_http.i"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odroid/Documents/dlib-18.17/dlib/server/server_http.cpp > CMakeFiles/dlib.dir/server/server_http.i
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lethic/projects/dlib-18.17/dlib/server/server_http.cpp > CMakeFiles/dlib.dir/server/server_http.i
 
 dlib_build/CMakeFiles/dlib.dir/server/server_http.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/server/server_http.s"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odroid/Documents/dlib-18.17/dlib/server/server_http.cpp -o CMakeFiles/dlib.dir/server/server_http.s
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lethic/projects/dlib-18.17/dlib/server/server_http.cpp -o CMakeFiles/dlib.dir/server/server_http.s
 
 dlib_build/CMakeFiles/dlib.dir/server/server_http.o.requires:
 .PHONY : dlib_build/CMakeFiles/dlib.dir/server/server_http.o.requires
@@ -743,18 +740,18 @@ dlib_build/CMakeFiles/dlib.dir/server/server_http.o.provides: dlib_build/CMakeFi
 dlib_build/CMakeFiles/dlib.dir/server/server_http.o.provides.build: dlib_build/CMakeFiles/dlib.dir/server/server_http.o
 
 dlib_build/CMakeFiles/dlib.dir/threads/multithreaded_object_extension.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/threads/multithreaded_object_extension.o: /home/odroid/Documents/dlib-18.17/dlib/threads/multithreaded_object_extension.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles $(CMAKE_PROGRESS_31)
+dlib_build/CMakeFiles/dlib.dir/threads/multithreaded_object_extension.o: /home/lethic/projects/dlib-18.17/dlib/threads/multithreaded_object_extension.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles $(CMAKE_PROGRESS_31)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object dlib_build/CMakeFiles/dlib.dir/threads/multithreaded_object_extension.o"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/threads/multithreaded_object_extension.o -c /home/odroid/Documents/dlib-18.17/dlib/threads/multithreaded_object_extension.cpp
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/threads/multithreaded_object_extension.o -c /home/lethic/projects/dlib-18.17/dlib/threads/multithreaded_object_extension.cpp
 
 dlib_build/CMakeFiles/dlib.dir/threads/multithreaded_object_extension.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/threads/multithreaded_object_extension.i"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odroid/Documents/dlib-18.17/dlib/threads/multithreaded_object_extension.cpp > CMakeFiles/dlib.dir/threads/multithreaded_object_extension.i
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lethic/projects/dlib-18.17/dlib/threads/multithreaded_object_extension.cpp > CMakeFiles/dlib.dir/threads/multithreaded_object_extension.i
 
 dlib_build/CMakeFiles/dlib.dir/threads/multithreaded_object_extension.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/threads/multithreaded_object_extension.s"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odroid/Documents/dlib-18.17/dlib/threads/multithreaded_object_extension.cpp -o CMakeFiles/dlib.dir/threads/multithreaded_object_extension.s
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lethic/projects/dlib-18.17/dlib/threads/multithreaded_object_extension.cpp -o CMakeFiles/dlib.dir/threads/multithreaded_object_extension.s
 
 dlib_build/CMakeFiles/dlib.dir/threads/multithreaded_object_extension.o.requires:
 .PHONY : dlib_build/CMakeFiles/dlib.dir/threads/multithreaded_object_extension.o.requires
@@ -766,18 +763,18 @@ dlib_build/CMakeFiles/dlib.dir/threads/multithreaded_object_extension.o.provides
 dlib_build/CMakeFiles/dlib.dir/threads/multithreaded_object_extension.o.provides.build: dlib_build/CMakeFiles/dlib.dir/threads/multithreaded_object_extension.o
 
 dlib_build/CMakeFiles/dlib.dir/threads/threaded_object_extension.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/threads/threaded_object_extension.o: /home/odroid/Documents/dlib-18.17/dlib/threads/threaded_object_extension.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles $(CMAKE_PROGRESS_32)
+dlib_build/CMakeFiles/dlib.dir/threads/threaded_object_extension.o: /home/lethic/projects/dlib-18.17/dlib/threads/threaded_object_extension.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles $(CMAKE_PROGRESS_32)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object dlib_build/CMakeFiles/dlib.dir/threads/threaded_object_extension.o"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/threads/threaded_object_extension.o -c /home/odroid/Documents/dlib-18.17/dlib/threads/threaded_object_extension.cpp
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/threads/threaded_object_extension.o -c /home/lethic/projects/dlib-18.17/dlib/threads/threaded_object_extension.cpp
 
 dlib_build/CMakeFiles/dlib.dir/threads/threaded_object_extension.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/threads/threaded_object_extension.i"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odroid/Documents/dlib-18.17/dlib/threads/threaded_object_extension.cpp > CMakeFiles/dlib.dir/threads/threaded_object_extension.i
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lethic/projects/dlib-18.17/dlib/threads/threaded_object_extension.cpp > CMakeFiles/dlib.dir/threads/threaded_object_extension.i
 
 dlib_build/CMakeFiles/dlib.dir/threads/threaded_object_extension.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/threads/threaded_object_extension.s"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odroid/Documents/dlib-18.17/dlib/threads/threaded_object_extension.cpp -o CMakeFiles/dlib.dir/threads/threaded_object_extension.s
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lethic/projects/dlib-18.17/dlib/threads/threaded_object_extension.cpp -o CMakeFiles/dlib.dir/threads/threaded_object_extension.s
 
 dlib_build/CMakeFiles/dlib.dir/threads/threaded_object_extension.o.requires:
 .PHONY : dlib_build/CMakeFiles/dlib.dir/threads/threaded_object_extension.o.requires
@@ -789,18 +786,18 @@ dlib_build/CMakeFiles/dlib.dir/threads/threaded_object_extension.o.provides: dli
 dlib_build/CMakeFiles/dlib.dir/threads/threaded_object_extension.o.provides.build: dlib_build/CMakeFiles/dlib.dir/threads/threaded_object_extension.o
 
 dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_1.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_1.o: /home/odroid/Documents/dlib-18.17/dlib/threads/threads_kernel_1.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles $(CMAKE_PROGRESS_33)
+dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_1.o: /home/lethic/projects/dlib-18.17/dlib/threads/threads_kernel_1.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles $(CMAKE_PROGRESS_33)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_1.o"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/threads/threads_kernel_1.o -c /home/odroid/Documents/dlib-18.17/dlib/threads/threads_kernel_1.cpp
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/threads/threads_kernel_1.o -c /home/lethic/projects/dlib-18.17/dlib/threads/threads_kernel_1.cpp
 
 dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_1.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/threads/threads_kernel_1.i"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odroid/Documents/dlib-18.17/dlib/threads/threads_kernel_1.cpp > CMakeFiles/dlib.dir/threads/threads_kernel_1.i
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lethic/projects/dlib-18.17/dlib/threads/threads_kernel_1.cpp > CMakeFiles/dlib.dir/threads/threads_kernel_1.i
 
 dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_1.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/threads/threads_kernel_1.s"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odroid/Documents/dlib-18.17/dlib/threads/threads_kernel_1.cpp -o CMakeFiles/dlib.dir/threads/threads_kernel_1.s
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lethic/projects/dlib-18.17/dlib/threads/threads_kernel_1.cpp -o CMakeFiles/dlib.dir/threads/threads_kernel_1.s
 
 dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_1.o.requires:
 .PHONY : dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_1.o.requires
@@ -812,18 +809,18 @@ dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_1.o.provides: dlib_build/C
 dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_1.o.provides.build: dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_1.o
 
 dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_2.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_2.o: /home/odroid/Documents/dlib-18.17/dlib/threads/threads_kernel_2.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles $(CMAKE_PROGRESS_34)
+dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_2.o: /home/lethic/projects/dlib-18.17/dlib/threads/threads_kernel_2.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles $(CMAKE_PROGRESS_34)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_2.o"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/threads/threads_kernel_2.o -c /home/odroid/Documents/dlib-18.17/dlib/threads/threads_kernel_2.cpp
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/threads/threads_kernel_2.o -c /home/lethic/projects/dlib-18.17/dlib/threads/threads_kernel_2.cpp
 
 dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_2.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/threads/threads_kernel_2.i"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odroid/Documents/dlib-18.17/dlib/threads/threads_kernel_2.cpp > CMakeFiles/dlib.dir/threads/threads_kernel_2.i
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lethic/projects/dlib-18.17/dlib/threads/threads_kernel_2.cpp > CMakeFiles/dlib.dir/threads/threads_kernel_2.i
 
 dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_2.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/threads/threads_kernel_2.s"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odroid/Documents/dlib-18.17/dlib/threads/threads_kernel_2.cpp -o CMakeFiles/dlib.dir/threads/threads_kernel_2.s
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lethic/projects/dlib-18.17/dlib/threads/threads_kernel_2.cpp -o CMakeFiles/dlib.dir/threads/threads_kernel_2.s
 
 dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_2.o.requires:
 .PHONY : dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_2.o.requires
@@ -835,18 +832,18 @@ dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_2.o.provides: dlib_build/C
 dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_2.o.provides.build: dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_2.o
 
 dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_shared.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_shared.o: /home/odroid/Documents/dlib-18.17/dlib/threads/threads_kernel_shared.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles $(CMAKE_PROGRESS_35)
+dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_shared.o: /home/lethic/projects/dlib-18.17/dlib/threads/threads_kernel_shared.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles $(CMAKE_PROGRESS_35)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_shared.o"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/threads/threads_kernel_shared.o -c /home/odroid/Documents/dlib-18.17/dlib/threads/threads_kernel_shared.cpp
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/threads/threads_kernel_shared.o -c /home/lethic/projects/dlib-18.17/dlib/threads/threads_kernel_shared.cpp
 
 dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_shared.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/threads/threads_kernel_shared.i"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odroid/Documents/dlib-18.17/dlib/threads/threads_kernel_shared.cpp > CMakeFiles/dlib.dir/threads/threads_kernel_shared.i
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lethic/projects/dlib-18.17/dlib/threads/threads_kernel_shared.cpp > CMakeFiles/dlib.dir/threads/threads_kernel_shared.i
 
 dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_shared.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/threads/threads_kernel_shared.s"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odroid/Documents/dlib-18.17/dlib/threads/threads_kernel_shared.cpp -o CMakeFiles/dlib.dir/threads/threads_kernel_shared.s
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lethic/projects/dlib-18.17/dlib/threads/threads_kernel_shared.cpp -o CMakeFiles/dlib.dir/threads/threads_kernel_shared.s
 
 dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_shared.o.requires:
 .PHONY : dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_shared.o.requires
@@ -858,18 +855,18 @@ dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_shared.o.provides: dlib_bu
 dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_shared.o.provides.build: dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_shared.o
 
 dlib_build/CMakeFiles/dlib.dir/threads/thread_pool_extension.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/threads/thread_pool_extension.o: /home/odroid/Documents/dlib-18.17/dlib/threads/thread_pool_extension.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles $(CMAKE_PROGRESS_36)
+dlib_build/CMakeFiles/dlib.dir/threads/thread_pool_extension.o: /home/lethic/projects/dlib-18.17/dlib/threads/thread_pool_extension.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles $(CMAKE_PROGRESS_36)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object dlib_build/CMakeFiles/dlib.dir/threads/thread_pool_extension.o"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/threads/thread_pool_extension.o -c /home/odroid/Documents/dlib-18.17/dlib/threads/thread_pool_extension.cpp
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/threads/thread_pool_extension.o -c /home/lethic/projects/dlib-18.17/dlib/threads/thread_pool_extension.cpp
 
 dlib_build/CMakeFiles/dlib.dir/threads/thread_pool_extension.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/threads/thread_pool_extension.i"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odroid/Documents/dlib-18.17/dlib/threads/thread_pool_extension.cpp > CMakeFiles/dlib.dir/threads/thread_pool_extension.i
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lethic/projects/dlib-18.17/dlib/threads/thread_pool_extension.cpp > CMakeFiles/dlib.dir/threads/thread_pool_extension.i
 
 dlib_build/CMakeFiles/dlib.dir/threads/thread_pool_extension.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/threads/thread_pool_extension.s"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odroid/Documents/dlib-18.17/dlib/threads/thread_pool_extension.cpp -o CMakeFiles/dlib.dir/threads/thread_pool_extension.s
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lethic/projects/dlib-18.17/dlib/threads/thread_pool_extension.cpp -o CMakeFiles/dlib.dir/threads/thread_pool_extension.s
 
 dlib_build/CMakeFiles/dlib.dir/threads/thread_pool_extension.o.requires:
 .PHONY : dlib_build/CMakeFiles/dlib.dir/threads/thread_pool_extension.o.requires
@@ -881,18 +878,18 @@ dlib_build/CMakeFiles/dlib.dir/threads/thread_pool_extension.o.provides: dlib_bu
 dlib_build/CMakeFiles/dlib.dir/threads/thread_pool_extension.o.provides.build: dlib_build/CMakeFiles/dlib.dir/threads/thread_pool_extension.o
 
 dlib_build/CMakeFiles/dlib.dir/timer/timer.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/timer/timer.o: /home/odroid/Documents/dlib-18.17/dlib/timer/timer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles $(CMAKE_PROGRESS_37)
+dlib_build/CMakeFiles/dlib.dir/timer/timer.o: /home/lethic/projects/dlib-18.17/dlib/timer/timer.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles $(CMAKE_PROGRESS_37)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object dlib_build/CMakeFiles/dlib.dir/timer/timer.o"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/timer/timer.o -c /home/odroid/Documents/dlib-18.17/dlib/timer/timer.cpp
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/timer/timer.o -c /home/lethic/projects/dlib-18.17/dlib/timer/timer.cpp
 
 dlib_build/CMakeFiles/dlib.dir/timer/timer.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/timer/timer.i"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odroid/Documents/dlib-18.17/dlib/timer/timer.cpp > CMakeFiles/dlib.dir/timer/timer.i
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lethic/projects/dlib-18.17/dlib/timer/timer.cpp > CMakeFiles/dlib.dir/timer/timer.i
 
 dlib_build/CMakeFiles/dlib.dir/timer/timer.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/timer/timer.s"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odroid/Documents/dlib-18.17/dlib/timer/timer.cpp -o CMakeFiles/dlib.dir/timer/timer.s
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lethic/projects/dlib-18.17/dlib/timer/timer.cpp -o CMakeFiles/dlib.dir/timer/timer.s
 
 dlib_build/CMakeFiles/dlib.dir/timer/timer.o.requires:
 .PHONY : dlib_build/CMakeFiles/dlib.dir/timer/timer.o.requires
@@ -904,18 +901,18 @@ dlib_build/CMakeFiles/dlib.dir/timer/timer.o.provides: dlib_build/CMakeFiles/dli
 dlib_build/CMakeFiles/dlib.dir/timer/timer.o.provides.build: dlib_build/CMakeFiles/dlib.dir/timer/timer.o
 
 dlib_build/CMakeFiles/dlib.dir/stack_trace.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/stack_trace.o: /home/odroid/Documents/dlib-18.17/dlib/stack_trace.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles $(CMAKE_PROGRESS_38)
+dlib_build/CMakeFiles/dlib.dir/stack_trace.o: /home/lethic/projects/dlib-18.17/dlib/stack_trace.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles $(CMAKE_PROGRESS_38)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object dlib_build/CMakeFiles/dlib.dir/stack_trace.o"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/stack_trace.o -c /home/odroid/Documents/dlib-18.17/dlib/stack_trace.cpp
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/stack_trace.o -c /home/lethic/projects/dlib-18.17/dlib/stack_trace.cpp
 
 dlib_build/CMakeFiles/dlib.dir/stack_trace.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/stack_trace.i"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odroid/Documents/dlib-18.17/dlib/stack_trace.cpp > CMakeFiles/dlib.dir/stack_trace.i
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lethic/projects/dlib-18.17/dlib/stack_trace.cpp > CMakeFiles/dlib.dir/stack_trace.i
 
 dlib_build/CMakeFiles/dlib.dir/stack_trace.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/stack_trace.s"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odroid/Documents/dlib-18.17/dlib/stack_trace.cpp -o CMakeFiles/dlib.dir/stack_trace.s
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lethic/projects/dlib-18.17/dlib/stack_trace.cpp -o CMakeFiles/dlib.dir/stack_trace.s
 
 dlib_build/CMakeFiles/dlib.dir/stack_trace.o.requires:
 .PHONY : dlib_build/CMakeFiles/dlib.dir/stack_trace.o.requires
@@ -927,18 +924,18 @@ dlib_build/CMakeFiles/dlib.dir/stack_trace.o.provides: dlib_build/CMakeFiles/dli
 dlib_build/CMakeFiles/dlib.dir/stack_trace.o.provides.build: dlib_build/CMakeFiles/dlib.dir/stack_trace.o
 
 dlib_build/CMakeFiles/dlib.dir/gui_widgets/fonts.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/gui_widgets/fonts.o: /home/odroid/Documents/dlib-18.17/dlib/gui_widgets/fonts.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles $(CMAKE_PROGRESS_39)
+dlib_build/CMakeFiles/dlib.dir/gui_widgets/fonts.o: /home/lethic/projects/dlib-18.17/dlib/gui_widgets/fonts.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles $(CMAKE_PROGRESS_39)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object dlib_build/CMakeFiles/dlib.dir/gui_widgets/fonts.o"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/gui_widgets/fonts.o -c /home/odroid/Documents/dlib-18.17/dlib/gui_widgets/fonts.cpp
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/gui_widgets/fonts.o -c /home/lethic/projects/dlib-18.17/dlib/gui_widgets/fonts.cpp
 
 dlib_build/CMakeFiles/dlib.dir/gui_widgets/fonts.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/gui_widgets/fonts.i"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odroid/Documents/dlib-18.17/dlib/gui_widgets/fonts.cpp > CMakeFiles/dlib.dir/gui_widgets/fonts.i
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lethic/projects/dlib-18.17/dlib/gui_widgets/fonts.cpp > CMakeFiles/dlib.dir/gui_widgets/fonts.i
 
 dlib_build/CMakeFiles/dlib.dir/gui_widgets/fonts.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/gui_widgets/fonts.s"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odroid/Documents/dlib-18.17/dlib/gui_widgets/fonts.cpp -o CMakeFiles/dlib.dir/gui_widgets/fonts.s
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lethic/projects/dlib-18.17/dlib/gui_widgets/fonts.cpp -o CMakeFiles/dlib.dir/gui_widgets/fonts.s
 
 dlib_build/CMakeFiles/dlib.dir/gui_widgets/fonts.o.requires:
 .PHONY : dlib_build/CMakeFiles/dlib.dir/gui_widgets/fonts.o.requires
@@ -950,18 +947,18 @@ dlib_build/CMakeFiles/dlib.dir/gui_widgets/fonts.o.provides: dlib_build/CMakeFil
 dlib_build/CMakeFiles/dlib.dir/gui_widgets/fonts.o.provides.build: dlib_build/CMakeFiles/dlib.dir/gui_widgets/fonts.o
 
 dlib_build/CMakeFiles/dlib.dir/gui_widgets/widgets.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/gui_widgets/widgets.o: /home/odroid/Documents/dlib-18.17/dlib/gui_widgets/widgets.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles $(CMAKE_PROGRESS_40)
+dlib_build/CMakeFiles/dlib.dir/gui_widgets/widgets.o: /home/lethic/projects/dlib-18.17/dlib/gui_widgets/widgets.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles $(CMAKE_PROGRESS_40)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object dlib_build/CMakeFiles/dlib.dir/gui_widgets/widgets.o"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/gui_widgets/widgets.o -c /home/odroid/Documents/dlib-18.17/dlib/gui_widgets/widgets.cpp
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/gui_widgets/widgets.o -c /home/lethic/projects/dlib-18.17/dlib/gui_widgets/widgets.cpp
 
 dlib_build/CMakeFiles/dlib.dir/gui_widgets/widgets.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/gui_widgets/widgets.i"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odroid/Documents/dlib-18.17/dlib/gui_widgets/widgets.cpp > CMakeFiles/dlib.dir/gui_widgets/widgets.i
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lethic/projects/dlib-18.17/dlib/gui_widgets/widgets.cpp > CMakeFiles/dlib.dir/gui_widgets/widgets.i
 
 dlib_build/CMakeFiles/dlib.dir/gui_widgets/widgets.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/gui_widgets/widgets.s"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odroid/Documents/dlib-18.17/dlib/gui_widgets/widgets.cpp -o CMakeFiles/dlib.dir/gui_widgets/widgets.s
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lethic/projects/dlib-18.17/dlib/gui_widgets/widgets.cpp -o CMakeFiles/dlib.dir/gui_widgets/widgets.s
 
 dlib_build/CMakeFiles/dlib.dir/gui_widgets/widgets.o.requires:
 .PHONY : dlib_build/CMakeFiles/dlib.dir/gui_widgets/widgets.o.requires
@@ -973,18 +970,18 @@ dlib_build/CMakeFiles/dlib.dir/gui_widgets/widgets.o.provides: dlib_build/CMakeF
 dlib_build/CMakeFiles/dlib.dir/gui_widgets/widgets.o.provides.build: dlib_build/CMakeFiles/dlib.dir/gui_widgets/widgets.o
 
 dlib_build/CMakeFiles/dlib.dir/gui_widgets/drawable.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/gui_widgets/drawable.o: /home/odroid/Documents/dlib-18.17/dlib/gui_widgets/drawable.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles $(CMAKE_PROGRESS_41)
+dlib_build/CMakeFiles/dlib.dir/gui_widgets/drawable.o: /home/lethic/projects/dlib-18.17/dlib/gui_widgets/drawable.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles $(CMAKE_PROGRESS_41)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object dlib_build/CMakeFiles/dlib.dir/gui_widgets/drawable.o"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/gui_widgets/drawable.o -c /home/odroid/Documents/dlib-18.17/dlib/gui_widgets/drawable.cpp
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/gui_widgets/drawable.o -c /home/lethic/projects/dlib-18.17/dlib/gui_widgets/drawable.cpp
 
 dlib_build/CMakeFiles/dlib.dir/gui_widgets/drawable.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/gui_widgets/drawable.i"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odroid/Documents/dlib-18.17/dlib/gui_widgets/drawable.cpp > CMakeFiles/dlib.dir/gui_widgets/drawable.i
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lethic/projects/dlib-18.17/dlib/gui_widgets/drawable.cpp > CMakeFiles/dlib.dir/gui_widgets/drawable.i
 
 dlib_build/CMakeFiles/dlib.dir/gui_widgets/drawable.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/gui_widgets/drawable.s"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odroid/Documents/dlib-18.17/dlib/gui_widgets/drawable.cpp -o CMakeFiles/dlib.dir/gui_widgets/drawable.s
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lethic/projects/dlib-18.17/dlib/gui_widgets/drawable.cpp -o CMakeFiles/dlib.dir/gui_widgets/drawable.s
 
 dlib_build/CMakeFiles/dlib.dir/gui_widgets/drawable.o.requires:
 .PHONY : dlib_build/CMakeFiles/dlib.dir/gui_widgets/drawable.o.requires
@@ -996,18 +993,18 @@ dlib_build/CMakeFiles/dlib.dir/gui_widgets/drawable.o.provides: dlib_build/CMake
 dlib_build/CMakeFiles/dlib.dir/gui_widgets/drawable.o.provides.build: dlib_build/CMakeFiles/dlib.dir/gui_widgets/drawable.o
 
 dlib_build/CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.o: /home/odroid/Documents/dlib-18.17/dlib/gui_widgets/canvas_drawing.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles $(CMAKE_PROGRESS_42)
+dlib_build/CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.o: /home/lethic/projects/dlib-18.17/dlib/gui_widgets/canvas_drawing.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles $(CMAKE_PROGRESS_42)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object dlib_build/CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.o"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.o -c /home/odroid/Documents/dlib-18.17/dlib/gui_widgets/canvas_drawing.cpp
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.o -c /home/lethic/projects/dlib-18.17/dlib/gui_widgets/canvas_drawing.cpp
 
 dlib_build/CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.i"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odroid/Documents/dlib-18.17/dlib/gui_widgets/canvas_drawing.cpp > CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.i
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lethic/projects/dlib-18.17/dlib/gui_widgets/canvas_drawing.cpp > CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.i
 
 dlib_build/CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.s"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odroid/Documents/dlib-18.17/dlib/gui_widgets/canvas_drawing.cpp -o CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.s
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lethic/projects/dlib-18.17/dlib/gui_widgets/canvas_drawing.cpp -o CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.s
 
 dlib_build/CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.o.requires:
 .PHONY : dlib_build/CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.o.requires
@@ -1019,18 +1016,18 @@ dlib_build/CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.o.provides: dlib_build
 dlib_build/CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.o.provides.build: dlib_build/CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.o
 
 dlib_build/CMakeFiles/dlib.dir/gui_widgets/style.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/gui_widgets/style.o: /home/odroid/Documents/dlib-18.17/dlib/gui_widgets/style.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles $(CMAKE_PROGRESS_43)
+dlib_build/CMakeFiles/dlib.dir/gui_widgets/style.o: /home/lethic/projects/dlib-18.17/dlib/gui_widgets/style.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles $(CMAKE_PROGRESS_43)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object dlib_build/CMakeFiles/dlib.dir/gui_widgets/style.o"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/gui_widgets/style.o -c /home/odroid/Documents/dlib-18.17/dlib/gui_widgets/style.cpp
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/gui_widgets/style.o -c /home/lethic/projects/dlib-18.17/dlib/gui_widgets/style.cpp
 
 dlib_build/CMakeFiles/dlib.dir/gui_widgets/style.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/gui_widgets/style.i"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odroid/Documents/dlib-18.17/dlib/gui_widgets/style.cpp > CMakeFiles/dlib.dir/gui_widgets/style.i
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lethic/projects/dlib-18.17/dlib/gui_widgets/style.cpp > CMakeFiles/dlib.dir/gui_widgets/style.i
 
 dlib_build/CMakeFiles/dlib.dir/gui_widgets/style.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/gui_widgets/style.s"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odroid/Documents/dlib-18.17/dlib/gui_widgets/style.cpp -o CMakeFiles/dlib.dir/gui_widgets/style.s
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lethic/projects/dlib-18.17/dlib/gui_widgets/style.cpp -o CMakeFiles/dlib.dir/gui_widgets/style.s
 
 dlib_build/CMakeFiles/dlib.dir/gui_widgets/style.o.requires:
 .PHONY : dlib_build/CMakeFiles/dlib.dir/gui_widgets/style.o.requires
@@ -1042,18 +1039,18 @@ dlib_build/CMakeFiles/dlib.dir/gui_widgets/style.o.provides: dlib_build/CMakeFil
 dlib_build/CMakeFiles/dlib.dir/gui_widgets/style.o.provides.build: dlib_build/CMakeFiles/dlib.dir/gui_widgets/style.o
 
 dlib_build/CMakeFiles/dlib.dir/gui_widgets/base_widgets.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/gui_widgets/base_widgets.o: /home/odroid/Documents/dlib-18.17/dlib/gui_widgets/base_widgets.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles $(CMAKE_PROGRESS_44)
+dlib_build/CMakeFiles/dlib.dir/gui_widgets/base_widgets.o: /home/lethic/projects/dlib-18.17/dlib/gui_widgets/base_widgets.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles $(CMAKE_PROGRESS_44)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object dlib_build/CMakeFiles/dlib.dir/gui_widgets/base_widgets.o"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/gui_widgets/base_widgets.o -c /home/odroid/Documents/dlib-18.17/dlib/gui_widgets/base_widgets.cpp
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/gui_widgets/base_widgets.o -c /home/lethic/projects/dlib-18.17/dlib/gui_widgets/base_widgets.cpp
 
 dlib_build/CMakeFiles/dlib.dir/gui_widgets/base_widgets.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/gui_widgets/base_widgets.i"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odroid/Documents/dlib-18.17/dlib/gui_widgets/base_widgets.cpp > CMakeFiles/dlib.dir/gui_widgets/base_widgets.i
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lethic/projects/dlib-18.17/dlib/gui_widgets/base_widgets.cpp > CMakeFiles/dlib.dir/gui_widgets/base_widgets.i
 
 dlib_build/CMakeFiles/dlib.dir/gui_widgets/base_widgets.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/gui_widgets/base_widgets.s"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odroid/Documents/dlib-18.17/dlib/gui_widgets/base_widgets.cpp -o CMakeFiles/dlib.dir/gui_widgets/base_widgets.s
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lethic/projects/dlib-18.17/dlib/gui_widgets/base_widgets.cpp -o CMakeFiles/dlib.dir/gui_widgets/base_widgets.s
 
 dlib_build/CMakeFiles/dlib.dir/gui_widgets/base_widgets.o.requires:
 .PHONY : dlib_build/CMakeFiles/dlib.dir/gui_widgets/base_widgets.o.requires
@@ -1065,18 +1062,18 @@ dlib_build/CMakeFiles/dlib.dir/gui_widgets/base_widgets.o.provides: dlib_build/C
 dlib_build/CMakeFiles/dlib.dir/gui_widgets/base_widgets.o.provides.build: dlib_build/CMakeFiles/dlib.dir/gui_widgets/base_widgets.o
 
 dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.o: /home/odroid/Documents/dlib-18.17/dlib/gui_core/gui_core_kernel_1.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles $(CMAKE_PROGRESS_45)
+dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.o: /home/lethic/projects/dlib-18.17/dlib/gui_core/gui_core_kernel_1.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles $(CMAKE_PROGRESS_45)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.o"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.o -c /home/odroid/Documents/dlib-18.17/dlib/gui_core/gui_core_kernel_1.cpp
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.o -c /home/lethic/projects/dlib-18.17/dlib/gui_core/gui_core_kernel_1.cpp
 
 dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.i"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odroid/Documents/dlib-18.17/dlib/gui_core/gui_core_kernel_1.cpp > CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.i
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lethic/projects/dlib-18.17/dlib/gui_core/gui_core_kernel_1.cpp > CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.i
 
 dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.s"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odroid/Documents/dlib-18.17/dlib/gui_core/gui_core_kernel_1.cpp -o CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.s
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lethic/projects/dlib-18.17/dlib/gui_core/gui_core_kernel_1.cpp -o CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.s
 
 dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.o.requires:
 .PHONY : dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.o.requires
@@ -1088,18 +1085,18 @@ dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.o.provides: dlib_build
 dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.o.provides.build: dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.o
 
 dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.o: /home/odroid/Documents/dlib-18.17/dlib/gui_core/gui_core_kernel_2.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles $(CMAKE_PROGRESS_46)
+dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.o: /home/lethic/projects/dlib-18.17/dlib/gui_core/gui_core_kernel_2.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles $(CMAKE_PROGRESS_46)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.o"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.o -c /home/odroid/Documents/dlib-18.17/dlib/gui_core/gui_core_kernel_2.cpp
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.o -c /home/lethic/projects/dlib-18.17/dlib/gui_core/gui_core_kernel_2.cpp
 
 dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.i"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odroid/Documents/dlib-18.17/dlib/gui_core/gui_core_kernel_2.cpp > CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.i
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lethic/projects/dlib-18.17/dlib/gui_core/gui_core_kernel_2.cpp > CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.i
 
 dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.s"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odroid/Documents/dlib-18.17/dlib/gui_core/gui_core_kernel_2.cpp -o CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.s
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lethic/projects/dlib-18.17/dlib/gui_core/gui_core_kernel_2.cpp -o CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.s
 
 dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.o.requires:
 .PHONY : dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.o.requires
@@ -1111,18 +1108,18 @@ dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.o.provides: dlib_build
 dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.o.provides.build: dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.o
 
 dlib_build/CMakeFiles/dlib.dir/image_loader/png_loader.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/image_loader/png_loader.o: /home/odroid/Documents/dlib-18.17/dlib/image_loader/png_loader.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles $(CMAKE_PROGRESS_47)
+dlib_build/CMakeFiles/dlib.dir/image_loader/png_loader.o: /home/lethic/projects/dlib-18.17/dlib/image_loader/png_loader.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles $(CMAKE_PROGRESS_47)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object dlib_build/CMakeFiles/dlib.dir/image_loader/png_loader.o"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/image_loader/png_loader.o -c /home/odroid/Documents/dlib-18.17/dlib/image_loader/png_loader.cpp
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/image_loader/png_loader.o -c /home/lethic/projects/dlib-18.17/dlib/image_loader/png_loader.cpp
 
 dlib_build/CMakeFiles/dlib.dir/image_loader/png_loader.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/image_loader/png_loader.i"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odroid/Documents/dlib-18.17/dlib/image_loader/png_loader.cpp > CMakeFiles/dlib.dir/image_loader/png_loader.i
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lethic/projects/dlib-18.17/dlib/image_loader/png_loader.cpp > CMakeFiles/dlib.dir/image_loader/png_loader.i
 
 dlib_build/CMakeFiles/dlib.dir/image_loader/png_loader.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/image_loader/png_loader.s"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odroid/Documents/dlib-18.17/dlib/image_loader/png_loader.cpp -o CMakeFiles/dlib.dir/image_loader/png_loader.s
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lethic/projects/dlib-18.17/dlib/image_loader/png_loader.cpp -o CMakeFiles/dlib.dir/image_loader/png_loader.s
 
 dlib_build/CMakeFiles/dlib.dir/image_loader/png_loader.o.requires:
 .PHONY : dlib_build/CMakeFiles/dlib.dir/image_loader/png_loader.o.requires
@@ -1134,18 +1131,18 @@ dlib_build/CMakeFiles/dlib.dir/image_loader/png_loader.o.provides: dlib_build/CM
 dlib_build/CMakeFiles/dlib.dir/image_loader/png_loader.o.provides.build: dlib_build/CMakeFiles/dlib.dir/image_loader/png_loader.o
 
 dlib_build/CMakeFiles/dlib.dir/image_saver/save_png.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/image_saver/save_png.o: /home/odroid/Documents/dlib-18.17/dlib/image_saver/save_png.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles $(CMAKE_PROGRESS_48)
+dlib_build/CMakeFiles/dlib.dir/image_saver/save_png.o: /home/lethic/projects/dlib-18.17/dlib/image_saver/save_png.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles $(CMAKE_PROGRESS_48)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object dlib_build/CMakeFiles/dlib.dir/image_saver/save_png.o"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/image_saver/save_png.o -c /home/odroid/Documents/dlib-18.17/dlib/image_saver/save_png.cpp
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/image_saver/save_png.o -c /home/lethic/projects/dlib-18.17/dlib/image_saver/save_png.cpp
 
 dlib_build/CMakeFiles/dlib.dir/image_saver/save_png.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/image_saver/save_png.i"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odroid/Documents/dlib-18.17/dlib/image_saver/save_png.cpp > CMakeFiles/dlib.dir/image_saver/save_png.i
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lethic/projects/dlib-18.17/dlib/image_saver/save_png.cpp > CMakeFiles/dlib.dir/image_saver/save_png.i
 
 dlib_build/CMakeFiles/dlib.dir/image_saver/save_png.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/image_saver/save_png.s"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odroid/Documents/dlib-18.17/dlib/image_saver/save_png.cpp -o CMakeFiles/dlib.dir/image_saver/save_png.s
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lethic/projects/dlib-18.17/dlib/image_saver/save_png.cpp -o CMakeFiles/dlib.dir/image_saver/save_png.s
 
 dlib_build/CMakeFiles/dlib.dir/image_saver/save_png.o.requires:
 .PHONY : dlib_build/CMakeFiles/dlib.dir/image_saver/save_png.o.requires
@@ -1157,18 +1154,18 @@ dlib_build/CMakeFiles/dlib.dir/image_saver/save_png.o.provides: dlib_build/CMake
 dlib_build/CMakeFiles/dlib.dir/image_saver/save_png.o.provides.build: dlib_build/CMakeFiles/dlib.dir/image_saver/save_png.o
 
 dlib_build/CMakeFiles/dlib.dir/image_loader/jpeg_loader.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/image_loader/jpeg_loader.o: /home/odroid/Documents/dlib-18.17/dlib/image_loader/jpeg_loader.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles $(CMAKE_PROGRESS_49)
+dlib_build/CMakeFiles/dlib.dir/image_loader/jpeg_loader.o: /home/lethic/projects/dlib-18.17/dlib/image_loader/jpeg_loader.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles $(CMAKE_PROGRESS_49)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object dlib_build/CMakeFiles/dlib.dir/image_loader/jpeg_loader.o"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/image_loader/jpeg_loader.o -c /home/odroid/Documents/dlib-18.17/dlib/image_loader/jpeg_loader.cpp
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/image_loader/jpeg_loader.o -c /home/lethic/projects/dlib-18.17/dlib/image_loader/jpeg_loader.cpp
 
 dlib_build/CMakeFiles/dlib.dir/image_loader/jpeg_loader.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/image_loader/jpeg_loader.i"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odroid/Documents/dlib-18.17/dlib/image_loader/jpeg_loader.cpp > CMakeFiles/dlib.dir/image_loader/jpeg_loader.i
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lethic/projects/dlib-18.17/dlib/image_loader/jpeg_loader.cpp > CMakeFiles/dlib.dir/image_loader/jpeg_loader.i
 
 dlib_build/CMakeFiles/dlib.dir/image_loader/jpeg_loader.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/image_loader/jpeg_loader.s"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odroid/Documents/dlib-18.17/dlib/image_loader/jpeg_loader.cpp -o CMakeFiles/dlib.dir/image_loader/jpeg_loader.s
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lethic/projects/dlib-18.17/dlib/image_loader/jpeg_loader.cpp -o CMakeFiles/dlib.dir/image_loader/jpeg_loader.s
 
 dlib_build/CMakeFiles/dlib.dir/image_loader/jpeg_loader.o.requires:
 .PHONY : dlib_build/CMakeFiles/dlib.dir/image_loader/jpeg_loader.o.requires
@@ -1180,18 +1177,18 @@ dlib_build/CMakeFiles/dlib.dir/image_loader/jpeg_loader.o.provides: dlib_build/C
 dlib_build/CMakeFiles/dlib.dir/image_loader/jpeg_loader.o.provides.build: dlib_build/CMakeFiles/dlib.dir/image_loader/jpeg_loader.o
 
 dlib_build/CMakeFiles/dlib.dir/image_saver/save_jpeg.o: dlib_build/CMakeFiles/dlib.dir/flags.make
-dlib_build/CMakeFiles/dlib.dir/image_saver/save_jpeg.o: /home/odroid/Documents/dlib-18.17/dlib/image_saver/save_jpeg.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/odroid/Documents/facial_control/build/CMakeFiles $(CMAKE_PROGRESS_50)
+dlib_build/CMakeFiles/dlib.dir/image_saver/save_jpeg.o: /home/lethic/projects/dlib-18.17/dlib/image_saver/save_jpeg.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lethic/projects/faceLandmark/build/CMakeFiles $(CMAKE_PROGRESS_50)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object dlib_build/CMakeFiles/dlib.dir/image_saver/save_jpeg.o"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/image_saver/save_jpeg.o -c /home/odroid/Documents/dlib-18.17/dlib/image_saver/save_jpeg.cpp
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dlib.dir/image_saver/save_jpeg.o -c /home/lethic/projects/dlib-18.17/dlib/image_saver/save_jpeg.cpp
 
 dlib_build/CMakeFiles/dlib.dir/image_saver/save_jpeg.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dlib.dir/image_saver/save_jpeg.i"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/odroid/Documents/dlib-18.17/dlib/image_saver/save_jpeg.cpp > CMakeFiles/dlib.dir/image_saver/save_jpeg.i
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lethic/projects/dlib-18.17/dlib/image_saver/save_jpeg.cpp > CMakeFiles/dlib.dir/image_saver/save_jpeg.i
 
 dlib_build/CMakeFiles/dlib.dir/image_saver/save_jpeg.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dlib.dir/image_saver/save_jpeg.s"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/odroid/Documents/dlib-18.17/dlib/image_saver/save_jpeg.cpp -o CMakeFiles/dlib.dir/image_saver/save_jpeg.s
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lethic/projects/dlib-18.17/dlib/image_saver/save_jpeg.cpp -o CMakeFiles/dlib.dir/image_saver/save_jpeg.s
 
 dlib_build/CMakeFiles/dlib.dir/image_saver/save_jpeg.o.requires:
 .PHONY : dlib_build/CMakeFiles/dlib.dir/image_saver/save_jpeg.o.requires
@@ -1311,8 +1308,8 @@ dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/image_saver/save_jpeg.o
 dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/build.make
 dlib_build/libdlib.a: dlib_build/CMakeFiles/dlib.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX static library libdlib.a"
-	cd /home/odroid/Documents/facial_control/build/dlib_build && $(CMAKE_COMMAND) -P CMakeFiles/dlib.dir/cmake_clean_target.cmake
-	cd /home/odroid/Documents/facial_control/build/dlib_build && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dlib.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && $(CMAKE_COMMAND) -P CMakeFiles/dlib.dir/cmake_clean_target.cmake
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dlib.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 dlib_build/CMakeFiles/dlib.dir/build: dlib_build/libdlib.a
@@ -1371,10 +1368,10 @@ dlib_build/CMakeFiles/dlib.dir/requires: dlib_build/CMakeFiles/dlib.dir/image_sa
 .PHONY : dlib_build/CMakeFiles/dlib.dir/requires
 
 dlib_build/CMakeFiles/dlib.dir/clean:
-	cd /home/odroid/Documents/facial_control/build/dlib_build && $(CMAKE_COMMAND) -P CMakeFiles/dlib.dir/cmake_clean.cmake
+	cd /home/lethic/projects/faceLandmark/build/dlib_build && $(CMAKE_COMMAND) -P CMakeFiles/dlib.dir/cmake_clean.cmake
 .PHONY : dlib_build/CMakeFiles/dlib.dir/clean
 
 dlib_build/CMakeFiles/dlib.dir/depend:
-	cd /home/odroid/Documents/facial_control/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/odroid/Documents/facial_control /home/odroid/Documents/dlib-18.17/dlib /home/odroid/Documents/facial_control/build /home/odroid/Documents/facial_control/build/dlib_build /home/odroid/Documents/facial_control/build/dlib_build/CMakeFiles/dlib.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lethic/projects/faceLandmark/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lethic/projects/faceLandmark /home/lethic/projects/dlib-18.17/dlib /home/lethic/projects/faceLandmark/build /home/lethic/projects/faceLandmark/build/dlib_build /home/lethic/projects/faceLandmark/build/dlib_build/CMakeFiles/dlib.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : dlib_build/CMakeFiles/dlib.dir/depend
 

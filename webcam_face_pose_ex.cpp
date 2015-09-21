@@ -29,10 +29,12 @@
 
 #include <dlib/opencv.h>
 #include <opencv2/highgui/highgui.hpp>
+#include <opencv2/imgproc/imgproc.hpp>
 #include <dlib/image_processing/frontal_face_detector.h>
 #include <dlib/image_processing/render_face_detections.h>
 #include <dlib/image_processing.h>
 #include <dlib/gui_widgets.h>
+
 
 using namespace dlib;
 using namespace std;
@@ -41,7 +43,7 @@ int main()
 {
     try
     {
-        cv::VideoCapture cap(0);
+        cv::VideoCapture cap(1);
         image_window win;
 
         // Load face detection and pose estimation models.
@@ -54,6 +56,7 @@ int main()
         {
             // Grab a frame
             cv::Mat temp;
+            cv::Mat dst;
             cap >> temp;
             // Turn OpenCV's Mat into something dlib can deal with.  Note that this just
             // wraps the Mat object, it doesn't copy anything.  So cimg is only valid as
@@ -61,23 +64,24 @@ int main()
             // to reallocate the memory which stores the image as that will make cimg
             // contain dangling pointers.  This basically means you shouldn't modify temp
             // while using cimg.
-            cv_image<bgr_pixel> cimg(temp);
             //pyramid_up(cimg);
             // Detect faces
-            array2d<unsigned char> img;
-            img = cimg;
-            std::vector<rectangle> faces = detector(img);
+            //array2d<unsigned char> img;
+            //img = cimg;
+            cv::pyrDown(temp, dst, cv::Size(temp.cols/2, temp.rows/2));
+            cv_image<bgr_pixel> cimg(dst);
+            std::vector<rectangle> faces = detector(cimg);
             // Find the pose of each face.
-/*
+
             std::vector<full_object_detection> shapes;
             for (unsigned long i = 0; i < faces.size(); ++i)
                 shapes.push_back(pose_model(cimg, faces[i]));
-*/
+
             // Display it all on the screen
             win.clear_overlay();
             win.set_image(cimg);
-            //win.add_overlay(render_face_detections(shapes));
-            win.add_overlay(faces, rgb_pixel(255, 0, 0));
+            win.add_overlay(render_face_detections(shapes));
+            //win.add_overlay(faces, rgb_pixel(255, 0, 0));
         }
     }
     catch(serialization_error& e)
