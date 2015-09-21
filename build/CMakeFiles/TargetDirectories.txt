@@ -1,3 +1,0 @@
-/home/lethic/projects/faceLandmark/build/dlib_build/CMakeFiles/dlib.dir
-/home/lethic/projects/faceLandmark/build/CMakeFiles/sqlite_ex.dir
-/home/lethic/projects/faceLandmark/build/CMakeFiles/webcam_face_pose_ex.dir
