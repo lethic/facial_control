@@ -45,5 +45,5 @@ if (DLIB_LINK_WITH_SQLITE3)
    add_example(sqlite_ex)
 endif()
 
-
+set (CMAKE_CXX_FLAGS "-O3 -pipe -march=armv7-a -mcpu=cortex-a9 -mfloat-abi=hard -DENABLENEON=ON")
 

@@ -43,7 +43,7 @@ int main()
 {
     try
     {
-        cv::VideoCapture cap(1);
+        cv::VideoCapture cap(0);
         image_window win;
 
         // Load face detection and pose estimation models.
