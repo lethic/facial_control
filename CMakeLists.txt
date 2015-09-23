@@ -24,6 +24,8 @@ include(../dlib-18.17/dlib/cmake)
 # Since there are a lot of examples I'm going to use a macro to simply this
 # CMakeLists.txt file.  However, usually you will create only one executable in
 # your cmake projects and use the syntax shown above.
+add_definitions(-msse4)
+
 MACRO(add_example name)
    ADD_EXECUTABLE(${name} ${name}.cpp)
    TARGET_LINK_LIBRARIES(${name} dlib )

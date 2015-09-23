@@ -69,9 +69,9 @@ int main()
             // Detect faces
             //array2d<unsigned char> img;
             //img = cimg;
-            cv::pyrDown(temp, dst, cv::Size(temp.cols/2, temp.rows/2));
+            //cv::pyrDown(temp, dst, cv::Size(temp.cols/2, temp.rows/2));
             //cv::pyrDown(dst0, dst, cv::Size(dst0.cols/2, dst0.rows/2));
-            cv_image<bgr_pixel> cimg(dst);
+            cv_image<bgr_pixel> cimg(temp);
             std::vector<rectangle> faces = detector(cimg);
             // Find the pose of each face.
 
