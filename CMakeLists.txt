@@ -18,8 +18,8 @@ include(../dlib-18.17/dlib/cmake)
 # Then we tell it to link with dlib.
 #TARGET_LINK_LIBRARIES(webcam_face_pose_ex dlib)
 
-set (CMAKE_CXX_FLAGS "-O3 -pipe -march=armv7-a -mcpu=cortex-a9 -mfloat-abi=hard -DENABLE_NEON=ON")
-set (EXTRA_C_FLAGS_RELEASE "$(EXTRA_C_FLAGS_RELEASE) -02 -mfpu=neon")
+#set (CMAKE_CXX_FLAGS "-O3 -pipe -march=armv7-a -mcpu=cortex-a9 -mfloat-abi=hard -DENABLE_NEON=ON")
+#set (EXTRA_C_FLAGS_RELEASE "$(EXTRA_C_FLAGS_RELEASE) -02 -mfpu=neon")
 
 # Since there are a lot of examples I'm going to use a macro to simply this
 # CMakeLists.txt file.  However, usually you will create only one executable in
