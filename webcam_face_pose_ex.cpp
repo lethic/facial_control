@@ -56,6 +56,7 @@ int main()
         {
             // Grab a frame
             cv::Mat temp;
+            cv::Mat dst0;
             cv::Mat dst;
             cap >> temp;
             // Turn OpenCV's Mat into something dlib can deal with.  Note that this just
@@ -68,7 +69,8 @@ int main()
             // Detect faces
             //array2d<unsigned char> img;
             //img = cimg;
-            cv::pyrDown(temp, dst, cv::Size(temp.cols/4, temp.rows/4));
+            cv::pyrDown(temp, dst, cv::Size(temp.cols/2, temp.rows/2));
+            //cv::pyrDown(dst0, dst, cv::Size(dst0.cols/2, dst0.rows/2));
             cv_image<bgr_pixel> cimg(dst);
             std::vector<rectangle> faces = detector(cimg);
             // Find the pose of each face.
