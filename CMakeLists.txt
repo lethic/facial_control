@@ -18,12 +18,14 @@ include(../dlib-18.17/dlib/cmake)
 # Then we tell it to link with dlib.
 #TARGET_LINK_LIBRARIES(webcam_face_pose_ex dlib)
 
-
-
+#set (CMAKE_CXX_FLAGS "-O3 -pipe -march=armv7-a -mcpu=cortex-a9 -mfloat-abi=hard -DENABLE_NEON=ON")
+#set (EXTRA_C_FLAGS_RELEASE "$(EXTRA_C_FLAGS_RELEASE) -02 -mfpu=neon")
 
 # Since there are a lot of examples I'm going to use a macro to simply this
 # CMakeLists.txt file.  However, usually you will create only one executable in
 # your cmake projects and use the syntax shown above.
+add_definitions(-msse4)
+
 MACRO(add_example name)
    ADD_EXECUTABLE(${name} ${name}.cpp)
    TARGET_LINK_LIBRARIES(${name} dlib )
@@ -44,6 +46,4 @@ endif()
 if (DLIB_LINK_WITH_SQLITE3)
    add_example(sqlite_ex)
 endif()
-
-
 
