@@ -26,6 +26,9 @@ include(../dlib-18.17/dlib/cmake)
 # your cmake projects and use the syntax shown above.
 add_definitions(-msse4)
 
+# For complilation on Odroid
+# set(CMAKE_CXX_FLAGS "-mcpu=cortex-a9 -mfpu=neon mfloat-abi=softfp")
+
 MACRO(add_example name)
    ADD_EXECUTABLE(${name} ${name}.cpp)
    TARGET_LINK_LIBRARIES(${name} dlib )
