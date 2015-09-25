@@ -76,8 +76,14 @@ int main()
             // Find the pose of each face.
 
             std::vector<full_object_detection> shapes;
-            for (unsigned long i = 0; i < faces.size(); ++i)
-                shapes.push_back(pose_model(cimg, faces[i]));
+
+            full_object_detection single_shape;
+            
+            for (unsigned long i = 0; i < faces.size(); ++i){
+                single_shape = pose_model(cimg, faces[i]);
+                printf("face %lu has %lu parts\n", i, single_shape.num_parts());
+                shapes.push_back(single_shape);
+            }
 
             // Display it all on the screen
             win.clear_overlay();
