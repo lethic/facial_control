@@ -81,7 +81,12 @@ int main()
             
             for (unsigned long i = 0; i < faces.size(); ++i){
                 single_shape = pose_model(cimg, faces[i]);
+                //face part number: http://ibug.doc.ic.ac.uk/resources/300-W/
                 printf("face %lu has %lu parts\n", i, single_shape.num_parts());
+                cout << "nose: " << single_shape.part(34) << endl;
+                cout << "mouth: " << single_shape.part(67) << endl;
+                cout << "left: " << single_shape.part(15) << endl;
+                cout << "right: " << single_shape.part(3) << endl;
                 shapes.push_back(single_shape);
             }
 
