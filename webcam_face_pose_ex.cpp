@@ -34,7 +34,8 @@
 #include <dlib/image_processing/render_face_detections.h>
 #include <dlib/image_processing.h>
 #include <dlib/gui_widgets.h>
-
+#include <dlib/image_io.h>
+#include <iostream>
 
 using namespace dlib;
 using namespace std;
@@ -83,10 +84,14 @@ int main()
                 single_shape = pose_model(cimg, faces[i]);
                 //face part number: http://ibug.doc.ic.ac.uk/resources/300-W/
                 printf("face %lu has %lu parts\n", i, single_shape.num_parts());
+<<<<<<< HEAD
                 cout << "nose: " << single_shape.part(34) << endl;
                 cout << "mouth: " << single_shape.part(67) << endl;
                 cout << "left: " << single_shape.part(15) << endl;
                 cout << "right: " << single_shape.part(3) << endl;
+=======
+                cout << 
+>>>>>>> 31d8d750572378f5db2dce3cdb9ab5e80654ddec
                 shapes.push_back(single_shape);
             }
 
