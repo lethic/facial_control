@@ -44,7 +44,8 @@ int main()
 {
     try
     {
-        cv::VideoCapture cap(0);
+        //cv::VideoCapture cap(0);
+        cv::VideoCapture cap("bebop_face.avi");
         image_window win;
 
         // Load face detection and pose estimation models.
@@ -72,10 +73,16 @@ int main()
             //img = cimg;
             //cv::pyrDown(temp, dst, cv::Size(temp.cols/2, temp.rows/2));
             //cv::pyrDown(dst0, dst, cv::Size(dst0.cols/2, dst0.rows/2));
-            cv_image<bgr_pixel> cimg(temp);
-            std::vector<rectangle> faces = detector(cimg);
+            //cv_image<bgr_pixel> cimg(temp);
+            /*
+            array2d<bgr_pixel>cimg;
+            assign_image(cimg, cv_image<bgr_pixel>(temp));
+            pyramid_up(cimg);
+            */
+            cv_image<bgr_pixel>cimg(temp);
+            std::vector<rectangle> faces = detector(cimg, -0.5);
             // Find the pose of each face.
-
+/*
             std::vector<full_object_detection> shapes;
 
             full_object_detection single_shape;
@@ -90,11 +97,12 @@ int main()
                 cout << "right: " << single_shape.part(3) << endl;
                 shapes.push_back(single_shape);
             }
-
+*/
             // Display it all on the screen
             win.clear_overlay();
             win.set_image(cimg);
-            win.add_overlay(render_face_detections(shapes));
+            //win.add_overlay(render_face_detections(shapes));
+            win.add_overlay(faces);
             //win.add_overlay(faces, rgb_pixel(255, 0, 0));
         }
     }
